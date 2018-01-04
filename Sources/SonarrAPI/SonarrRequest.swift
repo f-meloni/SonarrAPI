@@ -16,7 +16,7 @@ public class SonarrRequest<T: Codable> {
     
     let completionBlock: (ProcedureResult<T>) -> Void
     
-    init(completionBlock: @escaping (ProcedureResult<T>) -> Void) {
+    public init(completionBlock: @escaping (ProcedureResult<T>) -> Void) {
         self.completionBlock = completionBlock
     }
 

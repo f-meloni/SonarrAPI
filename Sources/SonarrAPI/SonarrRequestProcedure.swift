@@ -36,19 +36,20 @@ class SonarrRequestProcedure<T: Codable>: Procedure, OutputProcedure {
     }
     
     override func execute() {
+        super.execute()
         let parameters = ["apiKey": self.apiKey]
-        manager.request(host + request.endpoint.path, method: request.endpoint.method, parameters: parameters).validate().responseData { [weak self] (response) in
-            
+        
+        Alamofire.request(host + "api/" + request.endpoint.path, method: request.endpoint.method, parameters: parameters, headers: ["Accept-Encoding": "application/json"]).validate().responseData(queue: DispatchQueue.default) { (response) in
             switch(response.result) {
             case .success(let data):
                 if let result = try? JSONDecoder().decode(T.self, from: data) {
-                    self?.finish(withResult: .success(result))
+                    self.finish(withResult: .success(result))
                 }
                 else {
-                    self?.finish(withError: SonarrRequestProcedureError.responseNotValid)
+                    self.finish(withError: SonarrRequestProcedureError.responseNotValid)
                 }
             case .failure(let error):
-                self?.finish(withResult: .failure(error))
+                self.finish(withResult: .failure(error))
             }
         }
     }
