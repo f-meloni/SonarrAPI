@@ -539,8 +539,7 @@
 			children = (
 				9DF1114E1FFD92AF001BB9A8 /* SeriesRequest.swift */,
 			);
-			name = Requests;
-			path = Sources/Requests;
+			path = Requests;
 			sourceTree = "<group>";
 		};
 		9DF1114F1FFD92AF001BB9A8 /* DataModel */ = {
@@ -548,8 +547,7 @@
 			children = (
 				9DF111501FFD92AF001BB9A8 /* Series */,
 			);
-			name = DataModel;
-			path = Sources/DataModel;
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 		9DF111501FFD92AF001BB9A8 /* Series */ = {
@@ -694,7 +692,7 @@
 			path = ".build/checkouts/ProcedureKit.git-1085810464120962172/Sources/ProcedureKit";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -703,7 +701,6 @@
 				OBJ_16 /* Dependencies */,
 				OBJ_133 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_58 /* ProcedureKitMac */ = {
@@ -738,8 +735,6 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				9DF1114F1FFD92AF001BB9A8 /* DataModel */,
-				9DF1114D1FFD92AF001BB9A8 /* Requests */,
 				OBJ_8 /* SonarrAPI */,
 			);
 			name = Sources;
@@ -775,6 +770,8 @@
 		OBJ_8 /* SonarrAPI */ = {
 			isa = PBXGroup;
 			children = (
+				9DF1114F1FFD92AF001BB9A8 /* DataModel */,
+				9DF1114D1FFD92AF001BB9A8 /* Requests */,
 				OBJ_9 /* SonarrAPI.swift */,
 				OBJ_10 /* SonarrAPIEndpoint.swift */,
 				OBJ_11 /* SonarrRequest.swift */,
@@ -1042,7 +1039,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_133 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
