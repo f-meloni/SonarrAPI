@@ -36,7 +36,6 @@ class SonarrRequestProcedure<T: Codable>: Procedure, OutputProcedure {
     }
     
     override func execute() {
-        super.execute()
         let parameters = ["apiKey": self.apiKey]
         
         Alamofire.request(host + "api/" + request.endpoint.path, method: request.endpoint.method, parameters: parameters, headers: ["Accept-Encoding": "application/json"]).validate().responseData(queue: DispatchQueue.default) { (response) in
