@@ -12,10 +12,10 @@
       },
       {
         "package": "ProcedureKit",
-        "repositoryURL": "https://github.com/ProcedureKit/ProcedureKit.git",
+        "repositoryURL": "https://github.com/f-meloni/ProcedureKit.git",
         "state": {
-          "branch": "master",
-          "revision": "30d67817ae3e9d5df048c1bc092ce5047d7581f8",
+          "branch": "development",
+          "revision": "32975d698be67830298454d7213595ad199a85e8",
           "version": null
         }
       }
