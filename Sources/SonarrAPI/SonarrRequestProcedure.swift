@@ -17,6 +17,7 @@ class SonarrRequestProcedure<T: Codable>: Procedure, OutputProcedure {
     typealias Output = T
     
     private let host: String
+    private let port: String
     private let apiKey: String
     private let request: SonarrRequest<T>
     
@@ -26,8 +27,9 @@ class SonarrRequestProcedure<T: Codable>: Procedure, OutputProcedure {
         return .default
     }()
     
-    init(host: String, apiKey: String, request: SonarrRequest<T>) {
+    init(host: String, port: String, apiKey: String, request: SonarrRequest<T>) {
         self.host = host
+        self.port = port
         self.apiKey = apiKey
         self.request = request
         self.output = .pending
@@ -37,8 +39,9 @@ class SonarrRequestProcedure<T: Codable>: Procedure, OutputProcedure {
     
     override func execute() {
         let parameters = ["apiKey": self.apiKey]
+        let requestURL = "http://\(host):\(port)/api/\(request.endpoint.path)"
         
-        Alamofire.request(host + "api/" + request.endpoint.path, method: request.endpoint.method, parameters: parameters, headers: ["Accept-Encoding": "application/json"]).validate().responseData(queue: DispatchQueue.default) { (response) in
+        Alamofire.request(requestURL, method: request.endpoint.method, parameters: parameters, headers: ["Accept-Encoding": "application/json"]).validate().responseData(queue: DispatchQueue.default) { (response) in
             switch(response.result) {
             case .success(let data):
                 if let result = try? JSONDecoder().decode(T.self, from: data) {

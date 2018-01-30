@@ -9,11 +9,11 @@
 /* Begin PBXAggregateTarget section */
 		"SonarrAPI::SonarrAPIPackageTests::ProductTarget" /* SonarrAPIPackageTests */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_366 /* Build configuration list for PBXAggregateTarget "SonarrAPIPackageTests" */;
+			buildConfigurationList = OBJ_346 /* Build configuration list for PBXAggregateTarget "SonarrAPIPackageTests" */;
 			buildPhases = (
 			);
 			dependencies = (
-				OBJ_369 /* PBXTargetDependency */,
+				OBJ_349 /* PBXTargetDependency */,
 			);
 			name = SonarrAPIPackageTests;
 			productName = SonarrAPIPackageTests;
@@ -21,291 +21,255 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		9DF111571FFD92AF001BB9A8 /* SeriesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF1114E1FFD92AF001BB9A8 /* SeriesRequest.swift */; };
-		9DF111581FFD92AF001BB9A8 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF111511FFD92AF001BB9A8 /* Statistics.swift */; };
-		9DF111591FFD92AF001BB9A8 /* Ratings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF111521FFD92AF001BB9A8 /* Ratings.swift */; };
-		9DF1115A1FFD92AF001BB9A8 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF111531FFD92AF001BB9A8 /* Image.swift */; };
-		9DF1115B1FFD92AF001BB9A8 /* Serie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF111541FFD92AF001BB9A8 /* Serie.swift */; };
-		9DF1115C1FFD92AF001BB9A8 /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF111551FFD92AF001BB9A8 /* Season.swift */; };
-		9DF1115D1FFD92AF001BB9A8 /* AlternateTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF111561FFD92AF001BB9A8 /* AlternateTitle.swift */; };
-		9DF1115F1FFD92CD001BB9A8 /* SonarrRequestProcedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF1115E1FFD92CD001BB9A8 /* SonarrRequestProcedure.swift */; };
-		OBJ_148 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_154 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_113 /* Package.swift */; };
-		OBJ_160 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_115 /* Package.swift */; };
-		OBJ_166 /* SonarrAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* SonarrAPITests.swift */; };
-		OBJ_168 /* SonarrAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SonarrAPI::SonarrAPI::Product" /* SonarrAPI.framework */; };
-		OBJ_169 /* TestingProcedureKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::TestingProcedureKit::Product" /* TestingProcedureKit.framework */; };
-		OBJ_170 /* ProcedureKitMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::ProcedureKitMac::Product" /* ProcedureKitMac.framework */; };
-		OBJ_171 /* ProcedureKitCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::ProcedureKitCloud::Product" /* ProcedureKitCloud.framework */; };
-		OBJ_172 /* ProcedureKitNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::ProcedureKitNetwork::Product" /* ProcedureKitNetwork.framework */; };
-		OBJ_173 /* ProcedureKitLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::ProcedureKitLocation::Product" /* ProcedureKitLocation.framework */; };
-		OBJ_174 /* ProcedureKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::ProcedureKit::Product" /* ProcedureKit.framework */; };
-		OBJ_175 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Alamofire::Alamofire::Product" /* Alamofire.framework */; };
-		OBJ_196 /* SonarrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* SonarrAPI.swift */; };
-		OBJ_197 /* SonarrAPIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* SonarrAPIEndpoint.swift */; };
-		OBJ_198 /* SonarrRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* SonarrRequest.swift */; };
-		OBJ_200 /* TestingProcedureKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::TestingProcedureKit::Product" /* TestingProcedureKit.framework */; };
+		OBJ_144 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_150 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_110 /* Package.swift */; };
+		OBJ_156 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_112 /* Package.swift */; };
+		OBJ_162 /* SonarrAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* SonarrAPITests.swift */; };
+		OBJ_164 /* SonarrAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SonarrAPI::SonarrAPI::Product" /* SonarrAPI.framework */; };
+		OBJ_165 /* ProcedureKitMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::ProcedureKitMac::Product" /* ProcedureKitMac.framework */; };
+		OBJ_166 /* ProcedureKitCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::ProcedureKitCloud::Product" /* ProcedureKitCloud.framework */; };
+		OBJ_167 /* ProcedureKitNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::ProcedureKitNetwork::Product" /* ProcedureKitNetwork.framework */; };
+		OBJ_168 /* ProcedureKitLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::ProcedureKitLocation::Product" /* ProcedureKitLocation.framework */; };
+		OBJ_169 /* ProcedureKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::ProcedureKit::Product" /* ProcedureKit.framework */; };
+		OBJ_170 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Alamofire::Alamofire::Product" /* Alamofire.framework */; };
+		OBJ_189 /* AlternateTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* AlternateTitle.swift */; };
+		OBJ_190 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Image.swift */; };
+		OBJ_191 /* Ratings.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Ratings.swift */; };
+		OBJ_192 /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Season.swift */; };
+		OBJ_193 /* Serie.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Serie.swift */; };
+		OBJ_194 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Statistics.swift */; };
+		OBJ_195 /* SeriesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* SeriesRequest.swift */; };
+		OBJ_196 /* SonarrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* SonarrAPI.swift */; };
+		OBJ_197 /* SonarrAPIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* SonarrAPIEndpoint.swift */; };
+		OBJ_198 /* SonarrRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* SonarrRequest.swift */; };
+		OBJ_199 /* SonarrRequestProcedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* SonarrRequestProcedure.swift */; };
 		OBJ_201 /* ProcedureKitMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::ProcedureKitMac::Product" /* ProcedureKitMac.framework */; };
 		OBJ_202 /* ProcedureKitCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::ProcedureKitCloud::Product" /* ProcedureKitCloud.framework */; };
 		OBJ_203 /* ProcedureKitNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::ProcedureKitNetwork::Product" /* ProcedureKitNetwork.framework */; };
 		OBJ_204 /* ProcedureKitLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::ProcedureKitLocation::Product" /* ProcedureKitLocation.framework */; };
 		OBJ_205 /* ProcedureKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::ProcedureKit::Product" /* ProcedureKit.framework */; };
 		OBJ_206 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Alamofire::Alamofire::Product" /* Alamofire.framework */; };
-		OBJ_218 /* CapabilityTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* CapabilityTestCase.swift */; };
-		OBJ_219 /* ConcurrencyTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* ConcurrencyTestCase.swift */; };
-		OBJ_220 /* GroupTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* GroupTestCase.swift */; };
-		OBJ_221 /* ProcedureKitTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* ProcedureKitTestCase.swift */; };
-		OBJ_222 /* QueueTestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* QueueTestDelegate.swift */; };
-		OBJ_223 /* RepeatTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* RepeatTestCase.swift */; };
-		OBJ_224 /* StressTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* StressTestCase.swift */; };
-		OBJ_225 /* TestCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* TestCondition.swift */; };
-		OBJ_226 /* TestProcedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* TestProcedure.swift */; };
-		OBJ_227 /* TestableNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* TestableNetwork.swift */; };
-		OBJ_228 /* TestableNetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* TestableNetworkReachability.swift */; };
-		OBJ_229 /* XCTAsserts.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* XCTAsserts.swift */; };
-		OBJ_231 /* ProcedureKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::ProcedureKit::Product" /* ProcedureKit.framework */; };
-		OBJ_237 /* Process.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* Process.swift */; };
-		OBJ_239 /* ProcedureKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::ProcedureKit::Product" /* ProcedureKit.framework */; };
-		OBJ_245 /* CKAcceptSharesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_87 /* CKAcceptSharesOperation.swift */; };
-		OBJ_246 /* CKDatabaseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_88 /* CKDatabaseOperation.swift */; };
-		OBJ_247 /* CKDiscoverAllContactsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_89 /* CKDiscoverAllContactsOperation.swift */; };
-		OBJ_248 /* CKDiscoverAllUserIdentitiesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_90 /* CKDiscoverAllUserIdentitiesOperation.swift */; };
-		OBJ_249 /* CKDiscoverUserIdentitiesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_91 /* CKDiscoverUserIdentitiesOperation.swift */; };
-		OBJ_250 /* CKDiscoverUserInfosOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_92 /* CKDiscoverUserInfosOperation.swift */; };
-		OBJ_251 /* CKFetchDatabaseChangesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_93 /* CKFetchDatabaseChangesOperation.swift */; };
-		OBJ_252 /* CKFetchNotificationChangesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_94 /* CKFetchNotificationChangesOperation.swift */; };
-		OBJ_253 /* CKFetchRecordChangesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_95 /* CKFetchRecordChangesOperation.swift */; };
-		OBJ_254 /* CKFetchRecordZoneChangesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_96 /* CKFetchRecordZoneChangesOperation.swift */; };
-		OBJ_255 /* CKFetchRecordZonesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_97 /* CKFetchRecordZonesOperation.swift */; };
-		OBJ_256 /* CKFetchRecordsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_98 /* CKFetchRecordsOperation.swift */; };
-		OBJ_257 /* CKFetchShareMetadataOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_99 /* CKFetchShareMetadataOperation.swift */; };
-		OBJ_258 /* CKFetchShareParticipantsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_100 /* CKFetchShareParticipantsOperation.swift */; };
-		OBJ_259 /* CKFetchSubscriptionsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_101 /* CKFetchSubscriptionsOperation.swift */; };
-		OBJ_260 /* CKMarkNotificationsReadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_102 /* CKMarkNotificationsReadOperation.swift */; };
-		OBJ_261 /* CKModifyBadgeOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_103 /* CKModifyBadgeOperation.swift */; };
-		OBJ_262 /* CKModifyRecordZonesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_104 /* CKModifyRecordZonesOperation.swift */; };
-		OBJ_263 /* CKModifyRecordsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_105 /* CKModifyRecordsOperation.swift */; };
-		OBJ_264 /* CKModifySubscriptionsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_106 /* CKModifySubscriptionsOperation.swift */; };
-		OBJ_265 /* CKOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_107 /* CKOperation.swift */; };
-		OBJ_266 /* CKQueryOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_108 /* CKQueryOperation.swift */; };
-		OBJ_267 /* CloudKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_109 /* CloudKit.swift */; };
-		OBJ_268 /* CloudKitCapability.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_110 /* CloudKitCapability.swift */; };
-		OBJ_269 /* CloudKitError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_111 /* CloudKitError.swift */; };
-		OBJ_270 /* CloudKitSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_112 /* CloudKitSupport.swift */; };
-		OBJ_272 /* ProcedureKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::ProcedureKit::Product" /* ProcedureKit.framework */; };
-		OBJ_278 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_80 /* Network.swift */; };
-		OBJ_279 /* NetworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_81 /* NetworkData.swift */; };
-		OBJ_280 /* NetworkDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_82 /* NetworkDownload.swift */; };
-		OBJ_281 /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_83 /* NetworkReachability.swift */; };
-		OBJ_282 /* NetworkSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_84 /* NetworkSupport.swift */; };
-		OBJ_283 /* NetworkUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_85 /* NetworkUpload.swift */; };
-		OBJ_285 /* ProcedureKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::ProcedureKit::Product" /* ProcedureKit.framework */; };
-		OBJ_291 /* LocationCapability.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* LocationCapability.swift */; };
-		OBJ_292 /* LocationSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_75 /* LocationSupport.swift */; };
-		OBJ_293 /* ReverseGeocode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_76 /* ReverseGeocode.swift */; };
-		OBJ_294 /* ReverseGeocodeUserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_77 /* ReverseGeocodeUserLocation.swift */; };
-		OBJ_295 /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_78 /* UserLocation.swift */; };
-		OBJ_297 /* ProcedureKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::ProcedureKit::Product" /* ProcedureKit.framework */; };
-		OBJ_303 /* Any.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Any.swift */; };
-		OBJ_304 /* AnyObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* AnyObserver.swift */; };
-		OBJ_305 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Block.swift */; };
-		OBJ_306 /* BlockCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* BlockCondition.swift */; };
-		OBJ_307 /* BlockObservers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* BlockObservers.swift */; };
-		OBJ_308 /* Capability.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Capability.swift */; };
-		OBJ_309 /* Collection+ProcedureKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Collection+ProcedureKit.swift */; };
-		OBJ_310 /* Composed.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Composed.swift */; };
-		OBJ_311 /* Condition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* Condition.swift */; };
-		OBJ_312 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Delay.swift */; };
-		OBJ_313 /* DispatchQueue+ProcedureKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* DispatchQueue+ProcedureKit.swift */; };
-		OBJ_314 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Errors.swift */; };
-		OBJ_315 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Filter.swift */; };
-		OBJ_316 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* Group.swift */; };
-		OBJ_317 /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* Identity.swift */; };
-		OBJ_318 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* Logging.swift */; };
-		OBJ_319 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* Map.swift */; };
-		OBJ_320 /* MutualExclusion.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* MutualExclusion.swift */; };
-		OBJ_321 /* NegatedCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* NegatedCondition.swift */; };
-		OBJ_322 /* NetworkObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* NetworkObserver.swift */; };
-		OBJ_323 /* NoFailedDependenciesCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* NoFailedDependenciesCondition.swift */; };
-		OBJ_324 /* Operation+ProcedureKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* Operation+ProcedureKit.swift */; };
-		OBJ_325 /* PendingEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* PendingEvent.swift */; };
-		OBJ_326 /* Procedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* Procedure.swift */; };
-		OBJ_327 /* ProcedureEventQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* ProcedureEventQueue.swift */; };
-		OBJ_328 /* ProcedureFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* ProcedureFuture.swift */; };
-		OBJ_329 /* ProcedureObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* ProcedureObserver.swift */; };
-		OBJ_330 /* ProcedureProcotol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* ProcedureProcotol.swift */; };
-		OBJ_331 /* ProcedureQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* ProcedureQueue.swift */; };
-		OBJ_332 /* ProcedureResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* ProcedureResult.swift */; };
-		OBJ_333 /* Profiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* Profiler.swift */; };
-		OBJ_334 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* Reachability.swift */; };
-		OBJ_335 /* Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* Reduce.swift */; };
-		OBJ_336 /* Repeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* Repeat.swift */; };
-		OBJ_337 /* Retry.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* Retry.swift */; };
-		OBJ_338 /* SilentCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* SilentCondition.swift */; };
-		OBJ_339 /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* Support.swift */; };
-		OBJ_340 /* TimeoutObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* TimeoutObserver.swift */; };
-		OBJ_341 /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* Transform.swift */; };
-		OBJ_347 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_116 /* AFError.swift */; };
-		OBJ_348 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_117 /* Alamofire.swift */; };
-		OBJ_349 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_118 /* DispatchQueue+Alamofire.swift */; };
-		OBJ_350 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_119 /* MultipartFormData.swift */; };
-		OBJ_351 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_120 /* NetworkReachabilityManager.swift */; };
-		OBJ_352 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_121 /* Notifications.swift */; };
-		OBJ_353 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_122 /* ParameterEncoding.swift */; };
-		OBJ_354 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_123 /* Request.swift */; };
-		OBJ_355 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_124 /* Response.swift */; };
-		OBJ_356 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_125 /* ResponseSerialization.swift */; };
-		OBJ_357 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_126 /* Result.swift */; };
-		OBJ_358 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_127 /* ServerTrustPolicy.swift */; };
-		OBJ_359 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_128 /* SessionDelegate.swift */; };
-		OBJ_360 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_129 /* SessionManager.swift */; };
-		OBJ_361 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_130 /* TaskDelegate.swift */; };
-		OBJ_362 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_131 /* Timeline.swift */; };
-		OBJ_363 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_132 /* Validation.swift */; };
+		OBJ_217 /* Process.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_109 /* Process.swift */; };
+		OBJ_219 /* ProcedureKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::ProcedureKit::Product" /* ProcedureKit.framework */; };
+		OBJ_225 /* CKAcceptSharesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_82 /* CKAcceptSharesOperation.swift */; };
+		OBJ_226 /* CKDatabaseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_83 /* CKDatabaseOperation.swift */; };
+		OBJ_227 /* CKDiscoverAllContactsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_84 /* CKDiscoverAllContactsOperation.swift */; };
+		OBJ_228 /* CKDiscoverAllUserIdentitiesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_85 /* CKDiscoverAllUserIdentitiesOperation.swift */; };
+		OBJ_229 /* CKDiscoverUserIdentitiesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_86 /* CKDiscoverUserIdentitiesOperation.swift */; };
+		OBJ_230 /* CKDiscoverUserInfosOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_87 /* CKDiscoverUserInfosOperation.swift */; };
+		OBJ_231 /* CKFetchDatabaseChangesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_88 /* CKFetchDatabaseChangesOperation.swift */; };
+		OBJ_232 /* CKFetchNotificationChangesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_89 /* CKFetchNotificationChangesOperation.swift */; };
+		OBJ_233 /* CKFetchRecordChangesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_90 /* CKFetchRecordChangesOperation.swift */; };
+		OBJ_234 /* CKFetchRecordZoneChangesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_91 /* CKFetchRecordZoneChangesOperation.swift */; };
+		OBJ_235 /* CKFetchRecordZonesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_92 /* CKFetchRecordZonesOperation.swift */; };
+		OBJ_236 /* CKFetchRecordsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_93 /* CKFetchRecordsOperation.swift */; };
+		OBJ_237 /* CKFetchShareMetadataOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_94 /* CKFetchShareMetadataOperation.swift */; };
+		OBJ_238 /* CKFetchShareParticipantsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_95 /* CKFetchShareParticipantsOperation.swift */; };
+		OBJ_239 /* CKFetchSubscriptionsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_96 /* CKFetchSubscriptionsOperation.swift */; };
+		OBJ_240 /* CKMarkNotificationsReadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_97 /* CKMarkNotificationsReadOperation.swift */; };
+		OBJ_241 /* CKModifyBadgeOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_98 /* CKModifyBadgeOperation.swift */; };
+		OBJ_242 /* CKModifyRecordZonesOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_99 /* CKModifyRecordZonesOperation.swift */; };
+		OBJ_243 /* CKModifyRecordsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_100 /* CKModifyRecordsOperation.swift */; };
+		OBJ_244 /* CKModifySubscriptionsOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_101 /* CKModifySubscriptionsOperation.swift */; };
+		OBJ_245 /* CKOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_102 /* CKOperation.swift */; };
+		OBJ_246 /* CKQueryOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_103 /* CKQueryOperation.swift */; };
+		OBJ_247 /* CloudKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_104 /* CloudKit.swift */; };
+		OBJ_248 /* CloudKitCapability.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_105 /* CloudKitCapability.swift */; };
+		OBJ_249 /* CloudKitError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_106 /* CloudKitError.swift */; };
+		OBJ_250 /* CloudKitSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_107 /* CloudKitSupport.swift */; };
+		OBJ_252 /* ProcedureKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::ProcedureKit::Product" /* ProcedureKit.framework */; };
+		OBJ_258 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_75 /* Network.swift */; };
+		OBJ_259 /* NetworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_76 /* NetworkData.swift */; };
+		OBJ_260 /* NetworkDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_77 /* NetworkDownload.swift */; };
+		OBJ_261 /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_78 /* NetworkReachability.swift */; };
+		OBJ_262 /* NetworkSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_79 /* NetworkSupport.swift */; };
+		OBJ_263 /* NetworkUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_80 /* NetworkUpload.swift */; };
+		OBJ_265 /* ProcedureKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::ProcedureKit::Product" /* ProcedureKit.framework */; };
+		OBJ_271 /* LocationCapability.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* LocationCapability.swift */; };
+		OBJ_272 /* LocationSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* LocationSupport.swift */; };
+		OBJ_273 /* ReverseGeocode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* ReverseGeocode.swift */; };
+		OBJ_274 /* ReverseGeocodeUserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* ReverseGeocodeUserLocation.swift */; };
+		OBJ_275 /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* UserLocation.swift */; };
+		OBJ_277 /* ProcedureKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ProcedureKit::ProcedureKit::Product" /* ProcedureKit.framework */; };
+		OBJ_283 /* Any.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Any.swift */; };
+		OBJ_284 /* AnyObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* AnyObserver.swift */; };
+		OBJ_285 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Block.swift */; };
+		OBJ_286 /* BlockCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* BlockCondition.swift */; };
+		OBJ_287 /* BlockObservers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* BlockObservers.swift */; };
+		OBJ_288 /* Capability.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* Capability.swift */; };
+		OBJ_289 /* Collection+ProcedureKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* Collection+ProcedureKit.swift */; };
+		OBJ_290 /* Composed.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* Composed.swift */; };
+		OBJ_291 /* Condition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* Condition.swift */; };
+		OBJ_292 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* Delay.swift */; };
+		OBJ_293 /* DispatchQueue+ProcedureKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* DispatchQueue+ProcedureKit.swift */; };
+		OBJ_294 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* Errors.swift */; };
+		OBJ_295 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Filter.swift */; };
+		OBJ_296 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* Group.swift */; };
+		OBJ_297 /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Identity.swift */; };
+		OBJ_298 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* Logging.swift */; };
+		OBJ_299 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* Map.swift */; };
+		OBJ_300 /* MutualExclusion.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* MutualExclusion.swift */; };
+		OBJ_301 /* NegatedCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* NegatedCondition.swift */; };
+		OBJ_302 /* NetworkObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* NetworkObserver.swift */; };
+		OBJ_303 /* NoFailedDependenciesCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* NoFailedDependenciesCondition.swift */; };
+		OBJ_304 /* Operation+ProcedureKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* Operation+ProcedureKit.swift */; };
+		OBJ_305 /* PendingEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* PendingEvent.swift */; };
+		OBJ_306 /* Procedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* Procedure.swift */; };
+		OBJ_307 /* ProcedureEventQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* ProcedureEventQueue.swift */; };
+		OBJ_308 /* ProcedureFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* ProcedureFuture.swift */; };
+		OBJ_309 /* ProcedureObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* ProcedureObserver.swift */; };
+		OBJ_310 /* ProcedureProcotol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* ProcedureProcotol.swift */; };
+		OBJ_311 /* ProcedureQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* ProcedureQueue.swift */; };
+		OBJ_312 /* ProcedureResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* ProcedureResult.swift */; };
+		OBJ_313 /* Profiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* Profiler.swift */; };
+		OBJ_314 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* Reachability.swift */; };
+		OBJ_315 /* Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* Reduce.swift */; };
+		OBJ_316 /* Repeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* Repeat.swift */; };
+		OBJ_317 /* Retry.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* Retry.swift */; };
+		OBJ_318 /* SilentCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* SilentCondition.swift */; };
+		OBJ_319 /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* Support.swift */; };
+		OBJ_320 /* TimeoutObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* TimeoutObserver.swift */; };
+		OBJ_321 /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* Transform.swift */; };
+		OBJ_327 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_113 /* AFError.swift */; };
+		OBJ_328 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_114 /* Alamofire.swift */; };
+		OBJ_329 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_115 /* DispatchQueue+Alamofire.swift */; };
+		OBJ_330 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_116 /* MultipartFormData.swift */; };
+		OBJ_331 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_117 /* NetworkReachabilityManager.swift */; };
+		OBJ_332 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_118 /* Notifications.swift */; };
+		OBJ_333 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_119 /* ParameterEncoding.swift */; };
+		OBJ_334 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_120 /* Request.swift */; };
+		OBJ_335 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_121 /* Response.swift */; };
+		OBJ_336 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_122 /* ResponseSerialization.swift */; };
+		OBJ_337 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_123 /* Result.swift */; };
+		OBJ_338 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_124 /* ServerTrustPolicy.swift */; };
+		OBJ_339 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_125 /* SessionDelegate.swift */; };
+		OBJ_340 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_126 /* SessionManager.swift */; };
+		OBJ_341 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_127 /* TaskDelegate.swift */; };
+		OBJ_342 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_128 /* Timeline.swift */; };
+		OBJ_343 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_129 /* Validation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9DF111381FFD9291001BB9A8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "ProcedureKit::TestingProcedureKit";
-			remoteInfo = TestingProcedureKit;
-		};
-		9DF111391FFD9291001BB9A8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "ProcedureKit::ProcedureKit";
-			remoteInfo = ProcedureKit;
-		};
-		9DF1113A1FFD9291001BB9A8 /* PBXContainerItemProxy */ = {
+		9DF787DF202089BA00810EA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "ProcedureKit::ProcedureKitMac";
 			remoteInfo = ProcedureKitMac;
 		};
-		9DF1113B1FFD9291001BB9A8 /* PBXContainerItemProxy */ = {
+		9DF787E0202089BA00810EA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "ProcedureKit::ProcedureKit";
 			remoteInfo = ProcedureKit;
 		};
-		9DF1113C1FFD9291001BB9A8 /* PBXContainerItemProxy */ = {
+		9DF787E1202089BA00810EA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "ProcedureKit::ProcedureKitCloud";
 			remoteInfo = ProcedureKitCloud;
 		};
-		9DF1113D1FFD9291001BB9A8 /* PBXContainerItemProxy */ = {
+		9DF787E2202089BA00810EA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "ProcedureKit::ProcedureKit";
 			remoteInfo = ProcedureKit;
 		};
-		9DF1113E1FFD9291001BB9A8 /* PBXContainerItemProxy */ = {
+		9DF787E3202089BA00810EA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "ProcedureKit::ProcedureKitNetwork";
 			remoteInfo = ProcedureKitNetwork;
 		};
-		9DF1113F1FFD9291001BB9A8 /* PBXContainerItemProxy */ = {
+		9DF787E4202089BA00810EA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "ProcedureKit::ProcedureKit";
 			remoteInfo = ProcedureKit;
 		};
-		9DF111401FFD9291001BB9A8 /* PBXContainerItemProxy */ = {
+		9DF787E5202089BA00810EA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "ProcedureKit::ProcedureKitLocation";
 			remoteInfo = ProcedureKitLocation;
 		};
-		9DF111411FFD9291001BB9A8 /* PBXContainerItemProxy */ = {
+		9DF787E6202089BA00810EA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "ProcedureKit::ProcedureKit";
 			remoteInfo = ProcedureKit;
 		};
-		9DF111421FFD9291001BB9A8 /* PBXContainerItemProxy */ = {
+		9DF787E7202089BA00810EA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "ProcedureKit::ProcedureKit";
 			remoteInfo = ProcedureKit;
 		};
-		9DF111431FFD9291001BB9A8 /* PBXContainerItemProxy */ = {
+		9DF787E8202089BA00810EA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Alamofire::Alamofire";
 			remoteInfo = Alamofire;
 		};
-		9DF111441FFD9291001BB9A8 /* PBXContainerItemProxy */ = {
+		9DF787E9202089BA00810EA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "SonarrAPI::SonarrAPI";
 			remoteInfo = SonarrAPI;
 		};
-		9DF111451FFD9291001BB9A8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "ProcedureKit::TestingProcedureKit";
-			remoteInfo = TestingProcedureKit;
-		};
-		9DF111461FFD9291001BB9A8 /* PBXContainerItemProxy */ = {
+		9DF787EA202089BA00810EA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "ProcedureKit::ProcedureKitMac";
 			remoteInfo = ProcedureKitMac;
 		};
-		9DF111471FFD9291001BB9A8 /* PBXContainerItemProxy */ = {
+		9DF787EB202089BA00810EA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "ProcedureKit::ProcedureKitCloud";
 			remoteInfo = ProcedureKitCloud;
 		};
-		9DF111481FFD9291001BB9A8 /* PBXContainerItemProxy */ = {
+		9DF787EC202089BA00810EA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "ProcedureKit::ProcedureKitNetwork";
 			remoteInfo = ProcedureKitNetwork;
 		};
-		9DF111491FFD9291001BB9A8 /* PBXContainerItemProxy */ = {
+		9DF787ED202089BA00810EA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "ProcedureKit::ProcedureKitLocation";
 			remoteInfo = ProcedureKitLocation;
 		};
-		9DF1114A1FFD9291001BB9A8 /* PBXContainerItemProxy */ = {
+		9DF787EE202089BA00810EA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "ProcedureKit::ProcedureKit";
 			remoteInfo = ProcedureKit;
 		};
-		9DF1114B1FFD9291001BB9A8 /* PBXContainerItemProxy */ = {
+		9DF787EF202089BA00810EA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Alamofire::Alamofire";
 			remoteInfo = Alamofire;
 		};
-		9DF1114C1FFD9293001BB9A8 /* PBXContainerItemProxy */ = {
+		9DF787F0202089BB00810EA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -315,159 +279,144 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9DF1114E1FFD92AF001BB9A8 /* SeriesRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeriesRequest.swift; sourceTree = "<group>"; };
-		9DF111511FFD92AF001BB9A8 /* Statistics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
-		9DF111521FFD92AF001BB9A8 /* Ratings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ratings.swift; sourceTree = "<group>"; };
-		9DF111531FFD92AF001BB9A8 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
-		9DF111541FFD92AF001BB9A8 /* Serie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serie.swift; sourceTree = "<group>"; };
-		9DF111551FFD92AF001BB9A8 /* Season.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
-		9DF111561FFD92AF001BB9A8 /* AlternateTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlternateTitle.swift; sourceTree = "<group>"; };
-		9DF1115E1FFD92CD001BB9A8 /* SonarrRequestProcedure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarrRequestProcedure.swift; sourceTree = "<group>"; };
 		"Alamofire::Alamofire::Product" /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_10 /* SonarrAPIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarrAPIEndpoint.swift; sourceTree = "<group>"; };
-		OBJ_100 /* CKFetchShareParticipantsOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKFetchShareParticipantsOperation.swift; sourceTree = "<group>"; };
-		OBJ_101 /* CKFetchSubscriptionsOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKFetchSubscriptionsOperation.swift; sourceTree = "<group>"; };
-		OBJ_102 /* CKMarkNotificationsReadOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKMarkNotificationsReadOperation.swift; sourceTree = "<group>"; };
-		OBJ_103 /* CKModifyBadgeOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKModifyBadgeOperation.swift; sourceTree = "<group>"; };
-		OBJ_104 /* CKModifyRecordZonesOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKModifyRecordZonesOperation.swift; sourceTree = "<group>"; };
-		OBJ_105 /* CKModifyRecordsOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKModifyRecordsOperation.swift; sourceTree = "<group>"; };
-		OBJ_106 /* CKModifySubscriptionsOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKModifySubscriptionsOperation.swift; sourceTree = "<group>"; };
-		OBJ_107 /* CKOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKOperation.swift; sourceTree = "<group>"; };
-		OBJ_108 /* CKQueryOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKQueryOperation.swift; sourceTree = "<group>"; };
-		OBJ_109 /* CloudKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKit.swift; sourceTree = "<group>"; };
-		OBJ_11 /* SonarrRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarrRequest.swift; sourceTree = "<group>"; };
-		OBJ_110 /* CloudKitCapability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitCapability.swift; sourceTree = "<group>"; };
-		OBJ_111 /* CloudKitError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitError.swift; sourceTree = "<group>"; };
-		OBJ_112 /* CloudKitSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitSupport.swift; sourceTree = "<group>"; };
-		OBJ_113 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/franco/XCodeProjects/SonarrAPI/.build/checkouts/ProcedureKit.git-1085810464120962172/Package.swift"; sourceTree = "<group>"; };
-		OBJ_115 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/franco/XCodeProjects/SonarrAPI/.build/checkouts/Alamofire.git-6801331143877184500/Package.swift"; sourceTree = "<group>"; };
-		OBJ_116 /* AFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFError.swift; sourceTree = "<group>"; };
-		OBJ_117 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
-		OBJ_118 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		OBJ_119 /* MultipartFormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
-		OBJ_120 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		OBJ_121 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
-		OBJ_122 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
-		OBJ_123 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
-		OBJ_124 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
-		OBJ_125 /* ResponseSerialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
-		OBJ_126 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
-		OBJ_127 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		OBJ_128 /* SessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDelegate.swift; sourceTree = "<group>"; };
-		OBJ_129 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
-		OBJ_130 /* TaskDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDelegate.swift; sourceTree = "<group>"; };
-		OBJ_131 /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
-		OBJ_132 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
-		OBJ_14 /* SonarrAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarrAPITests.swift; sourceTree = "<group>"; };
-		OBJ_19 /* Any.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Any.swift; sourceTree = "<group>"; };
-		OBJ_20 /* AnyObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObserver.swift; sourceTree = "<group>"; };
-		OBJ_21 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
-		OBJ_22 /* BlockCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockCondition.swift; sourceTree = "<group>"; };
-		OBJ_23 /* BlockObservers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockObservers.swift; sourceTree = "<group>"; };
-		OBJ_24 /* Capability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capability.swift; sourceTree = "<group>"; };
-		OBJ_25 /* Collection+ProcedureKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+ProcedureKit.swift"; sourceTree = "<group>"; };
-		OBJ_26 /* Composed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composed.swift; sourceTree = "<group>"; };
-		OBJ_27 /* Condition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Condition.swift; sourceTree = "<group>"; };
-		OBJ_28 /* Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
-		OBJ_29 /* DispatchQueue+ProcedureKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+ProcedureKit.swift"; sourceTree = "<group>"; };
-		OBJ_30 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
-		OBJ_31 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
-		OBJ_32 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
-		OBJ_33 /* Identity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identity.swift; sourceTree = "<group>"; };
-		OBJ_34 /* Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
-		OBJ_35 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
-		OBJ_36 /* MutualExclusion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutualExclusion.swift; sourceTree = "<group>"; };
-		OBJ_37 /* NegatedCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegatedCondition.swift; sourceTree = "<group>"; };
-		OBJ_38 /* NetworkObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkObserver.swift; sourceTree = "<group>"; };
-		OBJ_39 /* NoFailedDependenciesCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoFailedDependenciesCondition.swift; sourceTree = "<group>"; };
-		OBJ_40 /* Operation+ProcedureKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Operation+ProcedureKit.swift"; sourceTree = "<group>"; };
-		OBJ_41 /* PendingEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingEvent.swift; sourceTree = "<group>"; };
-		OBJ_42 /* Procedure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Procedure.swift; sourceTree = "<group>"; };
-		OBJ_43 /* ProcedureEventQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedureEventQueue.swift; sourceTree = "<group>"; };
-		OBJ_44 /* ProcedureFuture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedureFuture.swift; sourceTree = "<group>"; };
-		OBJ_45 /* ProcedureObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedureObserver.swift; sourceTree = "<group>"; };
-		OBJ_46 /* ProcedureProcotol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedureProcotol.swift; sourceTree = "<group>"; };
-		OBJ_47 /* ProcedureQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedureQueue.swift; sourceTree = "<group>"; };
-		OBJ_48 /* ProcedureResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedureResult.swift; sourceTree = "<group>"; };
-		OBJ_49 /* Profiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profiler.swift; sourceTree = "<group>"; };
-		OBJ_50 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
-		OBJ_51 /* Reduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reduce.swift; sourceTree = "<group>"; };
-		OBJ_52 /* Repeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeat.swift; sourceTree = "<group>"; };
-		OBJ_53 /* Retry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Retry.swift; sourceTree = "<group>"; };
-		OBJ_54 /* SilentCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilentCondition.swift; sourceTree = "<group>"; };
-		OBJ_55 /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
-		OBJ_56 /* TimeoutObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeoutObserver.swift; sourceTree = "<group>"; };
-		OBJ_57 /* Transform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transform.swift; sourceTree = "<group>"; };
-		OBJ_59 /* Process.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Process.swift; sourceTree = "<group>"; };
+		OBJ_100 /* CKModifyRecordsOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKModifyRecordsOperation.swift; sourceTree = "<group>"; };
+		OBJ_101 /* CKModifySubscriptionsOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKModifySubscriptionsOperation.swift; sourceTree = "<group>"; };
+		OBJ_102 /* CKOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKOperation.swift; sourceTree = "<group>"; };
+		OBJ_103 /* CKQueryOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKQueryOperation.swift; sourceTree = "<group>"; };
+		OBJ_104 /* CloudKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKit.swift; sourceTree = "<group>"; };
+		OBJ_105 /* CloudKitCapability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitCapability.swift; sourceTree = "<group>"; };
+		OBJ_106 /* CloudKitError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitError.swift; sourceTree = "<group>"; };
+		OBJ_107 /* CloudKitSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitSupport.swift; sourceTree = "<group>"; };
+		OBJ_109 /* Process.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Process.swift; sourceTree = "<group>"; };
+		OBJ_11 /* AlternateTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternateTitle.swift; sourceTree = "<group>"; };
+		OBJ_110 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/franco/XCodeProjects/SonarrAPI/.build/checkouts/ProcedureKit.git--8173997865630089026/Package.swift"; sourceTree = "<group>"; };
+		OBJ_112 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/franco/XCodeProjects/SonarrAPI/.build/checkouts/Alamofire.git-6801331143877184500/Package.swift"; sourceTree = "<group>"; };
+		OBJ_113 /* AFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFError.swift; sourceTree = "<group>"; };
+		OBJ_114 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		OBJ_115 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		OBJ_116 /* MultipartFormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		OBJ_117 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		OBJ_118 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		OBJ_119 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		OBJ_12 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		OBJ_120 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		OBJ_121 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		OBJ_122 /* ResponseSerialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseSerialization.swift; sourceTree = "<group>"; };
+		OBJ_123 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		OBJ_124 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		OBJ_125 /* SessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDelegate.swift; sourceTree = "<group>"; };
+		OBJ_126 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		OBJ_127 /* TaskDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDelegate.swift; sourceTree = "<group>"; };
+		OBJ_128 /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		OBJ_129 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		OBJ_13 /* Ratings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ratings.swift; sourceTree = "<group>"; };
+		OBJ_14 /* Season.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
+		OBJ_15 /* Serie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serie.swift; sourceTree = "<group>"; };
+		OBJ_16 /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		OBJ_18 /* SeriesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesRequest.swift; sourceTree = "<group>"; };
+		OBJ_19 /* SonarrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarrAPI.swift; sourceTree = "<group>"; };
+		OBJ_20 /* SonarrAPIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarrAPIEndpoint.swift; sourceTree = "<group>"; };
+		OBJ_21 /* SonarrRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarrRequest.swift; sourceTree = "<group>"; };
+		OBJ_22 /* SonarrRequestProcedure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarrRequestProcedure.swift; sourceTree = "<group>"; };
+		OBJ_25 /* SonarrAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarrAPITests.swift; sourceTree = "<group>"; };
+		OBJ_29 /* Any.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Any.swift; sourceTree = "<group>"; };
+		OBJ_30 /* AnyObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObserver.swift; sourceTree = "<group>"; };
+		OBJ_31 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		OBJ_32 /* BlockCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockCondition.swift; sourceTree = "<group>"; };
+		OBJ_33 /* BlockObservers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockObservers.swift; sourceTree = "<group>"; };
+		OBJ_34 /* Capability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capability.swift; sourceTree = "<group>"; };
+		OBJ_35 /* Collection+ProcedureKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+ProcedureKit.swift"; sourceTree = "<group>"; };
+		OBJ_36 /* Composed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composed.swift; sourceTree = "<group>"; };
+		OBJ_37 /* Condition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Condition.swift; sourceTree = "<group>"; };
+		OBJ_38 /* Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
+		OBJ_39 /* DispatchQueue+ProcedureKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+ProcedureKit.swift"; sourceTree = "<group>"; };
+		OBJ_40 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		OBJ_41 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		OBJ_42 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		OBJ_43 /* Identity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identity.swift; sourceTree = "<group>"; };
+		OBJ_44 /* Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		OBJ_45 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		OBJ_46 /* MutualExclusion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutualExclusion.swift; sourceTree = "<group>"; };
+		OBJ_47 /* NegatedCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegatedCondition.swift; sourceTree = "<group>"; };
+		OBJ_48 /* NetworkObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkObserver.swift; sourceTree = "<group>"; };
+		OBJ_49 /* NoFailedDependenciesCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoFailedDependenciesCondition.swift; sourceTree = "<group>"; };
+		OBJ_50 /* Operation+ProcedureKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Operation+ProcedureKit.swift"; sourceTree = "<group>"; };
+		OBJ_51 /* PendingEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingEvent.swift; sourceTree = "<group>"; };
+		OBJ_52 /* Procedure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Procedure.swift; sourceTree = "<group>"; };
+		OBJ_53 /* ProcedureEventQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedureEventQueue.swift; sourceTree = "<group>"; };
+		OBJ_54 /* ProcedureFuture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedureFuture.swift; sourceTree = "<group>"; };
+		OBJ_55 /* ProcedureObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedureObserver.swift; sourceTree = "<group>"; };
+		OBJ_56 /* ProcedureProcotol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedureProcotol.swift; sourceTree = "<group>"; };
+		OBJ_57 /* ProcedureQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedureQueue.swift; sourceTree = "<group>"; };
+		OBJ_58 /* ProcedureResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedureResult.swift; sourceTree = "<group>"; };
+		OBJ_59 /* Profiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profiler.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_61 /* CapabilityTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapabilityTestCase.swift; sourceTree = "<group>"; };
-		OBJ_62 /* ConcurrencyTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyTestCase.swift; sourceTree = "<group>"; };
-		OBJ_63 /* GroupTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTestCase.swift; sourceTree = "<group>"; };
-		OBJ_64 /* ProcedureKitTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcedureKitTestCase.swift; sourceTree = "<group>"; };
-		OBJ_65 /* QueueTestDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTestDelegate.swift; sourceTree = "<group>"; };
-		OBJ_66 /* RepeatTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatTestCase.swift; sourceTree = "<group>"; };
-		OBJ_67 /* StressTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressTestCase.swift; sourceTree = "<group>"; };
-		OBJ_68 /* TestCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCondition.swift; sourceTree = "<group>"; };
-		OBJ_69 /* TestProcedure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProcedure.swift; sourceTree = "<group>"; };
-		OBJ_70 /* TestableNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestableNetwork.swift; sourceTree = "<group>"; };
-		OBJ_71 /* TestableNetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestableNetworkReachability.swift; sourceTree = "<group>"; };
-		OBJ_72 /* XCTAsserts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTAsserts.swift; sourceTree = "<group>"; };
-		OBJ_74 /* LocationCapability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCapability.swift; sourceTree = "<group>"; };
-		OBJ_75 /* LocationSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSupport.swift; sourceTree = "<group>"; };
-		OBJ_76 /* ReverseGeocode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseGeocode.swift; sourceTree = "<group>"; };
-		OBJ_77 /* ReverseGeocodeUserLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseGeocodeUserLocation.swift; sourceTree = "<group>"; };
-		OBJ_78 /* UserLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
-		OBJ_80 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
-		OBJ_81 /* NetworkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkData.swift; sourceTree = "<group>"; };
-		OBJ_82 /* NetworkDownload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDownload.swift; sourceTree = "<group>"; };
-		OBJ_83 /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
-		OBJ_84 /* NetworkSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSupport.swift; sourceTree = "<group>"; };
-		OBJ_85 /* NetworkUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUpload.swift; sourceTree = "<group>"; };
-		OBJ_87 /* CKAcceptSharesOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKAcceptSharesOperation.swift; sourceTree = "<group>"; };
-		OBJ_88 /* CKDatabaseOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKDatabaseOperation.swift; sourceTree = "<group>"; };
-		OBJ_89 /* CKDiscoverAllContactsOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKDiscoverAllContactsOperation.swift; sourceTree = "<group>"; };
-		OBJ_9 /* SonarrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarrAPI.swift; sourceTree = "<group>"; };
-		OBJ_90 /* CKDiscoverAllUserIdentitiesOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKDiscoverAllUserIdentitiesOperation.swift; sourceTree = "<group>"; };
-		OBJ_91 /* CKDiscoverUserIdentitiesOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKDiscoverUserIdentitiesOperation.swift; sourceTree = "<group>"; };
-		OBJ_92 /* CKDiscoverUserInfosOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKDiscoverUserInfosOperation.swift; sourceTree = "<group>"; };
-		OBJ_93 /* CKFetchDatabaseChangesOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKFetchDatabaseChangesOperation.swift; sourceTree = "<group>"; };
-		OBJ_94 /* CKFetchNotificationChangesOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKFetchNotificationChangesOperation.swift; sourceTree = "<group>"; };
-		OBJ_95 /* CKFetchRecordChangesOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKFetchRecordChangesOperation.swift; sourceTree = "<group>"; };
-		OBJ_96 /* CKFetchRecordZoneChangesOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKFetchRecordZoneChangesOperation.swift; sourceTree = "<group>"; };
-		OBJ_97 /* CKFetchRecordZonesOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKFetchRecordZonesOperation.swift; sourceTree = "<group>"; };
-		OBJ_98 /* CKFetchRecordsOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKFetchRecordsOperation.swift; sourceTree = "<group>"; };
-		OBJ_99 /* CKFetchShareMetadataOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKFetchShareMetadataOperation.swift; sourceTree = "<group>"; };
+		OBJ_60 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		OBJ_61 /* Reduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reduce.swift; sourceTree = "<group>"; };
+		OBJ_62 /* Repeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeat.swift; sourceTree = "<group>"; };
+		OBJ_63 /* Retry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Retry.swift; sourceTree = "<group>"; };
+		OBJ_64 /* SilentCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilentCondition.swift; sourceTree = "<group>"; };
+		OBJ_65 /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
+		OBJ_66 /* TimeoutObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeoutObserver.swift; sourceTree = "<group>"; };
+		OBJ_67 /* Transform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transform.swift; sourceTree = "<group>"; };
+		OBJ_69 /* LocationCapability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCapability.swift; sourceTree = "<group>"; };
+		OBJ_70 /* LocationSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSupport.swift; sourceTree = "<group>"; };
+		OBJ_71 /* ReverseGeocode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseGeocode.swift; sourceTree = "<group>"; };
+		OBJ_72 /* ReverseGeocodeUserLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseGeocodeUserLocation.swift; sourceTree = "<group>"; };
+		OBJ_73 /* UserLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
+		OBJ_75 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		OBJ_76 /* NetworkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkData.swift; sourceTree = "<group>"; };
+		OBJ_77 /* NetworkDownload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDownload.swift; sourceTree = "<group>"; };
+		OBJ_78 /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
+		OBJ_79 /* NetworkSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSupport.swift; sourceTree = "<group>"; };
+		OBJ_80 /* NetworkUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUpload.swift; sourceTree = "<group>"; };
+		OBJ_82 /* CKAcceptSharesOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKAcceptSharesOperation.swift; sourceTree = "<group>"; };
+		OBJ_83 /* CKDatabaseOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKDatabaseOperation.swift; sourceTree = "<group>"; };
+		OBJ_84 /* CKDiscoverAllContactsOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKDiscoverAllContactsOperation.swift; sourceTree = "<group>"; };
+		OBJ_85 /* CKDiscoverAllUserIdentitiesOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKDiscoverAllUserIdentitiesOperation.swift; sourceTree = "<group>"; };
+		OBJ_86 /* CKDiscoverUserIdentitiesOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKDiscoverUserIdentitiesOperation.swift; sourceTree = "<group>"; };
+		OBJ_87 /* CKDiscoverUserInfosOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKDiscoverUserInfosOperation.swift; sourceTree = "<group>"; };
+		OBJ_88 /* CKFetchDatabaseChangesOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKFetchDatabaseChangesOperation.swift; sourceTree = "<group>"; };
+		OBJ_89 /* CKFetchNotificationChangesOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKFetchNotificationChangesOperation.swift; sourceTree = "<group>"; };
+		OBJ_90 /* CKFetchRecordChangesOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKFetchRecordChangesOperation.swift; sourceTree = "<group>"; };
+		OBJ_91 /* CKFetchRecordZoneChangesOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKFetchRecordZoneChangesOperation.swift; sourceTree = "<group>"; };
+		OBJ_92 /* CKFetchRecordZonesOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKFetchRecordZonesOperation.swift; sourceTree = "<group>"; };
+		OBJ_93 /* CKFetchRecordsOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKFetchRecordsOperation.swift; sourceTree = "<group>"; };
+		OBJ_94 /* CKFetchShareMetadataOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKFetchShareMetadataOperation.swift; sourceTree = "<group>"; };
+		OBJ_95 /* CKFetchShareParticipantsOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKFetchShareParticipantsOperation.swift; sourceTree = "<group>"; };
+		OBJ_96 /* CKFetchSubscriptionsOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKFetchSubscriptionsOperation.swift; sourceTree = "<group>"; };
+		OBJ_97 /* CKMarkNotificationsReadOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKMarkNotificationsReadOperation.swift; sourceTree = "<group>"; };
+		OBJ_98 /* CKModifyBadgeOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKModifyBadgeOperation.swift; sourceTree = "<group>"; };
+		OBJ_99 /* CKModifyRecordZonesOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKModifyRecordZonesOperation.swift; sourceTree = "<group>"; };
 		"ProcedureKit::ProcedureKit::Product" /* ProcedureKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ProcedureKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"ProcedureKit::ProcedureKitCloud::Product" /* ProcedureKitCloud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ProcedureKitCloud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"ProcedureKit::ProcedureKitLocation::Product" /* ProcedureKitLocation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ProcedureKitLocation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"ProcedureKit::ProcedureKitMac::Product" /* ProcedureKitMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ProcedureKitMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"ProcedureKit::ProcedureKitNetwork::Product" /* ProcedureKitNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ProcedureKitNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"ProcedureKit::TestingProcedureKit::Product" /* TestingProcedureKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TestingProcedureKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"SonarrAPI::SonarrAPI::Product" /* SonarrAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SonarrAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SonarrAPI::SonarrAPI::Product" /* SonarrAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SonarrAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"SonarrAPI::SonarrAPITests::Product" /* SonarrAPITests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SonarrAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_167 /* Frameworks */ = {
+		OBJ_163 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_168 /* SonarrAPI.framework in Frameworks */,
-				OBJ_169 /* TestingProcedureKit.framework in Frameworks */,
-				OBJ_170 /* ProcedureKitMac.framework in Frameworks */,
-				OBJ_171 /* ProcedureKitCloud.framework in Frameworks */,
-				OBJ_172 /* ProcedureKitNetwork.framework in Frameworks */,
-				OBJ_173 /* ProcedureKitLocation.framework in Frameworks */,
-				OBJ_174 /* ProcedureKit.framework in Frameworks */,
-				OBJ_175 /* Alamofire.framework in Frameworks */,
+				OBJ_164 /* SonarrAPI.framework in Frameworks */,
+				OBJ_165 /* ProcedureKitMac.framework in Frameworks */,
+				OBJ_166 /* ProcedureKitCloud.framework in Frameworks */,
+				OBJ_167 /* ProcedureKitNetwork.framework in Frameworks */,
+				OBJ_168 /* ProcedureKitLocation.framework in Frameworks */,
+				OBJ_169 /* ProcedureKit.framework in Frameworks */,
+				OBJ_170 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_199 /* Frameworks */ = {
+		OBJ_200 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_200 /* TestingProcedureKit.framework in Frameworks */,
 				OBJ_201 /* ProcedureKitMac.framework in Frameworks */,
 				OBJ_202 /* ProcedureKitCloud.framework in Frameworks */,
 				OBJ_203 /* ProcedureKitNetwork.framework in Frameworks */,
@@ -477,54 +426,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_230 /* Frameworks */ = {
+		OBJ_218 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_231 /* ProcedureKit.framework in Frameworks */,
+				OBJ_219 /* ProcedureKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_238 /* Frameworks */ = {
+		OBJ_251 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_239 /* ProcedureKit.framework in Frameworks */,
+				OBJ_252 /* ProcedureKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_271 /* Frameworks */ = {
+		OBJ_264 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_272 /* ProcedureKit.framework in Frameworks */,
+				OBJ_265 /* ProcedureKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_284 /* Frameworks */ = {
+		OBJ_276 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_285 /* ProcedureKit.framework in Frameworks */,
+				OBJ_277 /* ProcedureKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_296 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_297 /* ProcedureKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_342 /* Frameworks */ = {
+		OBJ_322 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_364 /* Frameworks */ = {
+		OBJ_344 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
@@ -534,84 +475,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9DF1114D1FFD92AF001BB9A8 /* Requests */ = {
+		OBJ_10 /* Series */ = {
 			isa = PBXGroup;
 			children = (
-				9DF1114E1FFD92AF001BB9A8 /* SeriesRequest.swift */,
-			);
-			path = Requests;
-			sourceTree = "<group>";
-		};
-		9DF1114F1FFD92AF001BB9A8 /* DataModel */ = {
-			isa = PBXGroup;
-			children = (
-				9DF111501FFD92AF001BB9A8 /* Series */,
-			);
-			path = DataModel;
-			sourceTree = "<group>";
-		};
-		9DF111501FFD92AF001BB9A8 /* Series */ = {
-			isa = PBXGroup;
-			children = (
-				9DF111511FFD92AF001BB9A8 /* Statistics.swift */,
-				9DF111521FFD92AF001BB9A8 /* Ratings.swift */,
-				9DF111531FFD92AF001BB9A8 /* Image.swift */,
-				9DF111541FFD92AF001BB9A8 /* Serie.swift */,
-				9DF111551FFD92AF001BB9A8 /* Season.swift */,
-				9DF111561FFD92AF001BB9A8 /* AlternateTitle.swift */,
+				OBJ_11 /* AlternateTitle.swift */,
+				OBJ_12 /* Image.swift */,
+				OBJ_13 /* Ratings.swift */,
+				OBJ_14 /* Season.swift */,
+				OBJ_15 /* Serie.swift */,
+				OBJ_16 /* Statistics.swift */,
 			);
 			path = Series;
 			sourceTree = "<group>";
 		};
-		OBJ_114 /* Alamofire 4.6.0 */ = {
+		OBJ_108 /* ProcedureKitMac */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_115 /* Package.swift */,
-				OBJ_116 /* AFError.swift */,
-				OBJ_117 /* Alamofire.swift */,
-				OBJ_118 /* DispatchQueue+Alamofire.swift */,
-				OBJ_119 /* MultipartFormData.swift */,
-				OBJ_120 /* NetworkReachabilityManager.swift */,
-				OBJ_121 /* Notifications.swift */,
-				OBJ_122 /* ParameterEncoding.swift */,
-				OBJ_123 /* Request.swift */,
-				OBJ_124 /* Response.swift */,
-				OBJ_125 /* ResponseSerialization.swift */,
-				OBJ_126 /* Result.swift */,
-				OBJ_127 /* ServerTrustPolicy.swift */,
-				OBJ_128 /* SessionDelegate.swift */,
-				OBJ_129 /* SessionManager.swift */,
-				OBJ_130 /* TaskDelegate.swift */,
-				OBJ_131 /* Timeline.swift */,
-				OBJ_132 /* Validation.swift */,
+				OBJ_109 /* Process.swift */,
+			);
+			name = ProcedureKitMac;
+			path = ".build/checkouts/ProcedureKit.git--8173997865630089026/Sources/ProcedureKitMac";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_111 /* Alamofire 4.6.0 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_112 /* Package.swift */,
+				OBJ_113 /* AFError.swift */,
+				OBJ_114 /* Alamofire.swift */,
+				OBJ_115 /* DispatchQueue+Alamofire.swift */,
+				OBJ_116 /* MultipartFormData.swift */,
+				OBJ_117 /* NetworkReachabilityManager.swift */,
+				OBJ_118 /* Notifications.swift */,
+				OBJ_119 /* ParameterEncoding.swift */,
+				OBJ_120 /* Request.swift */,
+				OBJ_121 /* Response.swift */,
+				OBJ_122 /* ResponseSerialization.swift */,
+				OBJ_123 /* Result.swift */,
+				OBJ_124 /* ServerTrustPolicy.swift */,
+				OBJ_125 /* SessionDelegate.swift */,
+				OBJ_126 /* SessionManager.swift */,
+				OBJ_127 /* TaskDelegate.swift */,
+				OBJ_128 /* Timeline.swift */,
+				OBJ_129 /* Validation.swift */,
 			);
 			name = "Alamofire 4.6.0";
 			path = ".build/checkouts/Alamofire.git-6801331143877184500/Source";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_12 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_13 /* SonarrAPITests */,
-			);
-			name = Tests;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_13 /* SonarrAPITests */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_14 /* SonarrAPITests.swift */,
-			);
-			name = SonarrAPITests;
-			path = Tests/SonarrAPITests;
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_133 /* Products */ = {
+		OBJ_130 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				"SonarrAPI::SonarrAPITests::Product" /* SonarrAPITests.xctest */,
 				"SonarrAPI::SonarrAPI::Product" /* SonarrAPI.framework */,
-				"ProcedureKit::TestingProcedureKit::Product" /* TestingProcedureKit.framework */,
 				"ProcedureKit::ProcedureKitMac::Product" /* ProcedureKitMac.framework */,
 				"ProcedureKit::ProcedureKitCloud::Product" /* ProcedureKitCloud.framework */,
 				"ProcedureKit::ProcedureKitNetwork::Product" /* ProcedureKitNetwork.framework */,
@@ -622,114 +538,123 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_16 /* Dependencies */ = {
+		OBJ_17 /* Requests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_17 /* ProcedureKit */,
-				OBJ_114 /* Alamofire 4.6.0 */,
+				OBJ_18 /* SeriesRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		OBJ_23 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_24 /* SonarrAPITests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_24 /* SonarrAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_25 /* SonarrAPITests.swift */,
+			);
+			name = SonarrAPITests;
+			path = Tests/SonarrAPITests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_26 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_27 /* ProcedureKit */,
+				OBJ_111 /* Alamofire 4.6.0 */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		OBJ_17 /* ProcedureKit */ = {
+		OBJ_27 /* ProcedureKit */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_18 /* ProcedureKit */,
-				OBJ_58 /* ProcedureKitMac */,
-				OBJ_60 /* TestingProcedureKit */,
-				OBJ_73 /* ProcedureKitLocation */,
-				OBJ_79 /* ProcedureKitNetwork */,
-				OBJ_86 /* ProcedureKitCloud */,
-				OBJ_113 /* Package.swift */,
+				OBJ_28 /* ProcedureKit */,
+				OBJ_68 /* ProcedureKitLocation */,
+				OBJ_74 /* ProcedureKitNetwork */,
+				OBJ_81 /* ProcedureKitCloud */,
+				OBJ_108 /* ProcedureKitMac */,
+				OBJ_110 /* Package.swift */,
 			);
 			name = ProcedureKit;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_18 /* ProcedureKit */ = {
+		OBJ_28 /* ProcedureKit */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_19 /* Any.swift */,
-				OBJ_20 /* AnyObserver.swift */,
-				OBJ_21 /* Block.swift */,
-				OBJ_22 /* BlockCondition.swift */,
-				OBJ_23 /* BlockObservers.swift */,
-				OBJ_24 /* Capability.swift */,
-				OBJ_25 /* Collection+ProcedureKit.swift */,
-				OBJ_26 /* Composed.swift */,
-				OBJ_27 /* Condition.swift */,
-				OBJ_28 /* Delay.swift */,
-				OBJ_29 /* DispatchQueue+ProcedureKit.swift */,
-				OBJ_30 /* Errors.swift */,
-				OBJ_31 /* Filter.swift */,
-				OBJ_32 /* Group.swift */,
-				OBJ_33 /* Identity.swift */,
-				OBJ_34 /* Logging.swift */,
-				OBJ_35 /* Map.swift */,
-				OBJ_36 /* MutualExclusion.swift */,
-				OBJ_37 /* NegatedCondition.swift */,
-				OBJ_38 /* NetworkObserver.swift */,
-				OBJ_39 /* NoFailedDependenciesCondition.swift */,
-				OBJ_40 /* Operation+ProcedureKit.swift */,
-				OBJ_41 /* PendingEvent.swift */,
-				OBJ_42 /* Procedure.swift */,
-				OBJ_43 /* ProcedureEventQueue.swift */,
-				OBJ_44 /* ProcedureFuture.swift */,
-				OBJ_45 /* ProcedureObserver.swift */,
-				OBJ_46 /* ProcedureProcotol.swift */,
-				OBJ_47 /* ProcedureQueue.swift */,
-				OBJ_48 /* ProcedureResult.swift */,
-				OBJ_49 /* Profiler.swift */,
-				OBJ_50 /* Reachability.swift */,
-				OBJ_51 /* Reduce.swift */,
-				OBJ_52 /* Repeat.swift */,
-				OBJ_53 /* Retry.swift */,
-				OBJ_54 /* SilentCondition.swift */,
-				OBJ_55 /* Support.swift */,
-				OBJ_56 /* TimeoutObserver.swift */,
-				OBJ_57 /* Transform.swift */,
+				OBJ_29 /* Any.swift */,
+				OBJ_30 /* AnyObserver.swift */,
+				OBJ_31 /* Block.swift */,
+				OBJ_32 /* BlockCondition.swift */,
+				OBJ_33 /* BlockObservers.swift */,
+				OBJ_34 /* Capability.swift */,
+				OBJ_35 /* Collection+ProcedureKit.swift */,
+				OBJ_36 /* Composed.swift */,
+				OBJ_37 /* Condition.swift */,
+				OBJ_38 /* Delay.swift */,
+				OBJ_39 /* DispatchQueue+ProcedureKit.swift */,
+				OBJ_40 /* Errors.swift */,
+				OBJ_41 /* Filter.swift */,
+				OBJ_42 /* Group.swift */,
+				OBJ_43 /* Identity.swift */,
+				OBJ_44 /* Logging.swift */,
+				OBJ_45 /* Map.swift */,
+				OBJ_46 /* MutualExclusion.swift */,
+				OBJ_47 /* NegatedCondition.swift */,
+				OBJ_48 /* NetworkObserver.swift */,
+				OBJ_49 /* NoFailedDependenciesCondition.swift */,
+				OBJ_50 /* Operation+ProcedureKit.swift */,
+				OBJ_51 /* PendingEvent.swift */,
+				OBJ_52 /* Procedure.swift */,
+				OBJ_53 /* ProcedureEventQueue.swift */,
+				OBJ_54 /* ProcedureFuture.swift */,
+				OBJ_55 /* ProcedureObserver.swift */,
+				OBJ_56 /* ProcedureProcotol.swift */,
+				OBJ_57 /* ProcedureQueue.swift */,
+				OBJ_58 /* ProcedureResult.swift */,
+				OBJ_59 /* Profiler.swift */,
+				OBJ_60 /* Reachability.swift */,
+				OBJ_61 /* Reduce.swift */,
+				OBJ_62 /* Repeat.swift */,
+				OBJ_63 /* Retry.swift */,
+				OBJ_64 /* SilentCondition.swift */,
+				OBJ_65 /* Support.swift */,
+				OBJ_66 /* TimeoutObserver.swift */,
+				OBJ_67 /* Transform.swift */,
 			);
 			name = ProcedureKit;
-			path = ".build/checkouts/ProcedureKit.git-1085810464120962172/Sources/ProcedureKit";
+			path = ".build/checkouts/ProcedureKit.git--8173997865630089026/Sources/ProcedureKit";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_5 = {
+		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
-				OBJ_12 /* Tests */,
-				OBJ_16 /* Dependencies */,
-				OBJ_133 /* Products */,
+				OBJ_23 /* Tests */,
+				OBJ_26 /* Dependencies */,
+				OBJ_130 /* Products */,
 			);
+			name = "";
 			sourceTree = "<group>";
 		};
-		OBJ_58 /* ProcedureKitMac */ = {
+		OBJ_68 /* ProcedureKitLocation */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_59 /* Process.swift */,
+				OBJ_69 /* LocationCapability.swift */,
+				OBJ_70 /* LocationSupport.swift */,
+				OBJ_71 /* ReverseGeocode.swift */,
+				OBJ_72 /* ReverseGeocodeUserLocation.swift */,
+				OBJ_73 /* UserLocation.swift */,
 			);
-			name = ProcedureKitMac;
-			path = ".build/checkouts/ProcedureKit.git-1085810464120962172/Sources/ProcedureKitMac";
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_60 /* TestingProcedureKit */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_61 /* CapabilityTestCase.swift */,
-				OBJ_62 /* ConcurrencyTestCase.swift */,
-				OBJ_63 /* GroupTestCase.swift */,
-				OBJ_64 /* ProcedureKitTestCase.swift */,
-				OBJ_65 /* QueueTestDelegate.swift */,
-				OBJ_66 /* RepeatTestCase.swift */,
-				OBJ_67 /* StressTestCase.swift */,
-				OBJ_68 /* TestCondition.swift */,
-				OBJ_69 /* TestProcedure.swift */,
-				OBJ_70 /* TestableNetwork.swift */,
-				OBJ_71 /* TestableNetworkReachability.swift */,
-				OBJ_72 /* XCTAsserts.swift */,
-			);
-			name = TestingProcedureKit;
-			path = ".build/checkouts/ProcedureKit.git-1085810464120962172/Sources/TestingProcedureKit";
+			name = ProcedureKitLocation;
+			path = ".build/checkouts/ProcedureKit.git--8173997865630089026/Sources/ProcedureKitLocation";
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_7 /* Sources */ = {
@@ -740,90 +665,85 @@
 			name = Sources;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_73 /* ProcedureKitLocation */ = {
+		OBJ_74 /* ProcedureKitNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_74 /* LocationCapability.swift */,
-				OBJ_75 /* LocationSupport.swift */,
-				OBJ_76 /* ReverseGeocode.swift */,
-				OBJ_77 /* ReverseGeocodeUserLocation.swift */,
-				OBJ_78 /* UserLocation.swift */,
-			);
-			name = ProcedureKitLocation;
-			path = ".build/checkouts/ProcedureKit.git-1085810464120962172/Sources/ProcedureKitLocation";
-			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_79 /* ProcedureKitNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_80 /* Network.swift */,
-				OBJ_81 /* NetworkData.swift */,
-				OBJ_82 /* NetworkDownload.swift */,
-				OBJ_83 /* NetworkReachability.swift */,
-				OBJ_84 /* NetworkSupport.swift */,
-				OBJ_85 /* NetworkUpload.swift */,
+				OBJ_75 /* Network.swift */,
+				OBJ_76 /* NetworkData.swift */,
+				OBJ_77 /* NetworkDownload.swift */,
+				OBJ_78 /* NetworkReachability.swift */,
+				OBJ_79 /* NetworkSupport.swift */,
+				OBJ_80 /* NetworkUpload.swift */,
 			);
 			name = ProcedureKitNetwork;
-			path = ".build/checkouts/ProcedureKit.git-1085810464120962172/Sources/ProcedureKitNetwork";
+			path = ".build/checkouts/ProcedureKit.git--8173997865630089026/Sources/ProcedureKitNetwork";
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_8 /* SonarrAPI */ = {
 			isa = PBXGroup;
 			children = (
-				9DF1114F1FFD92AF001BB9A8 /* DataModel */,
-				9DF1114D1FFD92AF001BB9A8 /* Requests */,
-				OBJ_9 /* SonarrAPI.swift */,
-				OBJ_10 /* SonarrAPIEndpoint.swift */,
-				OBJ_11 /* SonarrRequest.swift */,
-				9DF1115E1FFD92CD001BB9A8 /* SonarrRequestProcedure.swift */,
+				OBJ_9 /* DataModel */,
+				OBJ_17 /* Requests */,
+				OBJ_19 /* SonarrAPI.swift */,
+				OBJ_20 /* SonarrAPIEndpoint.swift */,
+				OBJ_21 /* SonarrRequest.swift */,
+				OBJ_22 /* SonarrRequestProcedure.swift */,
 			);
 			name = SonarrAPI;
 			path = Sources/SonarrAPI;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_86 /* ProcedureKitCloud */ = {
+		OBJ_81 /* ProcedureKitCloud */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_87 /* CKAcceptSharesOperation.swift */,
-				OBJ_88 /* CKDatabaseOperation.swift */,
-				OBJ_89 /* CKDiscoverAllContactsOperation.swift */,
-				OBJ_90 /* CKDiscoverAllUserIdentitiesOperation.swift */,
-				OBJ_91 /* CKDiscoverUserIdentitiesOperation.swift */,
-				OBJ_92 /* CKDiscoverUserInfosOperation.swift */,
-				OBJ_93 /* CKFetchDatabaseChangesOperation.swift */,
-				OBJ_94 /* CKFetchNotificationChangesOperation.swift */,
-				OBJ_95 /* CKFetchRecordChangesOperation.swift */,
-				OBJ_96 /* CKFetchRecordZoneChangesOperation.swift */,
-				OBJ_97 /* CKFetchRecordZonesOperation.swift */,
-				OBJ_98 /* CKFetchRecordsOperation.swift */,
-				OBJ_99 /* CKFetchShareMetadataOperation.swift */,
-				OBJ_100 /* CKFetchShareParticipantsOperation.swift */,
-				OBJ_101 /* CKFetchSubscriptionsOperation.swift */,
-				OBJ_102 /* CKMarkNotificationsReadOperation.swift */,
-				OBJ_103 /* CKModifyBadgeOperation.swift */,
-				OBJ_104 /* CKModifyRecordZonesOperation.swift */,
-				OBJ_105 /* CKModifyRecordsOperation.swift */,
-				OBJ_106 /* CKModifySubscriptionsOperation.swift */,
-				OBJ_107 /* CKOperation.swift */,
-				OBJ_108 /* CKQueryOperation.swift */,
-				OBJ_109 /* CloudKit.swift */,
-				OBJ_110 /* CloudKitCapability.swift */,
-				OBJ_111 /* CloudKitError.swift */,
-				OBJ_112 /* CloudKitSupport.swift */,
+				OBJ_82 /* CKAcceptSharesOperation.swift */,
+				OBJ_83 /* CKDatabaseOperation.swift */,
+				OBJ_84 /* CKDiscoverAllContactsOperation.swift */,
+				OBJ_85 /* CKDiscoverAllUserIdentitiesOperation.swift */,
+				OBJ_86 /* CKDiscoverUserIdentitiesOperation.swift */,
+				OBJ_87 /* CKDiscoverUserInfosOperation.swift */,
+				OBJ_88 /* CKFetchDatabaseChangesOperation.swift */,
+				OBJ_89 /* CKFetchNotificationChangesOperation.swift */,
+				OBJ_90 /* CKFetchRecordChangesOperation.swift */,
+				OBJ_91 /* CKFetchRecordZoneChangesOperation.swift */,
+				OBJ_92 /* CKFetchRecordZonesOperation.swift */,
+				OBJ_93 /* CKFetchRecordsOperation.swift */,
+				OBJ_94 /* CKFetchShareMetadataOperation.swift */,
+				OBJ_95 /* CKFetchShareParticipantsOperation.swift */,
+				OBJ_96 /* CKFetchSubscriptionsOperation.swift */,
+				OBJ_97 /* CKMarkNotificationsReadOperation.swift */,
+				OBJ_98 /* CKModifyBadgeOperation.swift */,
+				OBJ_99 /* CKModifyRecordZonesOperation.swift */,
+				OBJ_100 /* CKModifyRecordsOperation.swift */,
+				OBJ_101 /* CKModifySubscriptionsOperation.swift */,
+				OBJ_102 /* CKOperation.swift */,
+				OBJ_103 /* CKQueryOperation.swift */,
+				OBJ_104 /* CloudKit.swift */,
+				OBJ_105 /* CloudKitCapability.swift */,
+				OBJ_106 /* CloudKitError.swift */,
+				OBJ_107 /* CloudKitSupport.swift */,
 			);
 			name = ProcedureKitCloud;
-			path = ".build/checkouts/ProcedureKit.git-1085810464120962172/Sources/ProcedureKitCloud";
+			path = ".build/checkouts/ProcedureKit.git--8173997865630089026/Sources/ProcedureKitCloud";
 			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_9 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* Series */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
 		"Alamofire::Alamofire" /* Alamofire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_343 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildConfigurationList = OBJ_323 /* Build configuration list for PBXNativeTarget "Alamofire" */;
 			buildPhases = (
-				OBJ_346 /* Sources */,
-				OBJ_364 /* Frameworks */,
+				OBJ_326 /* Sources */,
+				OBJ_344 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -836,9 +756,9 @@
 		};
 		"Alamofire::SwiftPMPackageDescription" /* AlamofirePackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_156 /* Build configuration list for PBXNativeTarget "AlamofirePackageDescription" */;
+			buildConfigurationList = OBJ_152 /* Build configuration list for PBXNativeTarget "AlamofirePackageDescription" */;
 			buildPhases = (
-				OBJ_159 /* Sources */,
+				OBJ_155 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -850,10 +770,10 @@
 		};
 		"ProcedureKit::ProcedureKit" /* ProcedureKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_299 /* Build configuration list for PBXNativeTarget "ProcedureKit" */;
+			buildConfigurationList = OBJ_279 /* Build configuration list for PBXNativeTarget "ProcedureKit" */;
 			buildPhases = (
-				OBJ_302 /* Sources */,
-				OBJ_342 /* Frameworks */,
+				OBJ_282 /* Sources */,
+				OBJ_322 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -866,15 +786,15 @@
 		};
 		"ProcedureKit::ProcedureKitCloud" /* ProcedureKitCloud */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_241 /* Build configuration list for PBXNativeTarget "ProcedureKitCloud" */;
+			buildConfigurationList = OBJ_221 /* Build configuration list for PBXNativeTarget "ProcedureKitCloud" */;
 			buildPhases = (
-				OBJ_244 /* Sources */,
-				OBJ_271 /* Frameworks */,
+				OBJ_224 /* Sources */,
+				OBJ_251 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_273 /* PBXTargetDependency */,
+				OBJ_253 /* PBXTargetDependency */,
 			);
 			name = ProcedureKitCloud;
 			productName = ProcedureKitCloud;
@@ -883,15 +803,15 @@
 		};
 		"ProcedureKit::ProcedureKitLocation" /* ProcedureKitLocation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_287 /* Build configuration list for PBXNativeTarget "ProcedureKitLocation" */;
+			buildConfigurationList = OBJ_267 /* Build configuration list for PBXNativeTarget "ProcedureKitLocation" */;
 			buildPhases = (
-				OBJ_290 /* Sources */,
-				OBJ_296 /* Frameworks */,
+				OBJ_270 /* Sources */,
+				OBJ_276 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_298 /* PBXTargetDependency */,
+				OBJ_278 /* PBXTargetDependency */,
 			);
 			name = ProcedureKitLocation;
 			productName = ProcedureKitLocation;
@@ -900,15 +820,15 @@
 		};
 		"ProcedureKit::ProcedureKitMac" /* ProcedureKitMac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_233 /* Build configuration list for PBXNativeTarget "ProcedureKitMac" */;
+			buildConfigurationList = OBJ_213 /* Build configuration list for PBXNativeTarget "ProcedureKitMac" */;
 			buildPhases = (
-				OBJ_236 /* Sources */,
-				OBJ_238 /* Frameworks */,
+				OBJ_216 /* Sources */,
+				OBJ_218 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_240 /* PBXTargetDependency */,
+				OBJ_220 /* PBXTargetDependency */,
 			);
 			name = ProcedureKitMac;
 			productName = ProcedureKitMac;
@@ -917,15 +837,15 @@
 		};
 		"ProcedureKit::ProcedureKitNetwork" /* ProcedureKitNetwork */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_274 /* Build configuration list for PBXNativeTarget "ProcedureKitNetwork" */;
+			buildConfigurationList = OBJ_254 /* Build configuration list for PBXNativeTarget "ProcedureKitNetwork" */;
 			buildPhases = (
-				OBJ_277 /* Sources */,
-				OBJ_284 /* Frameworks */,
+				OBJ_257 /* Sources */,
+				OBJ_264 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_286 /* PBXTargetDependency */,
+				OBJ_266 /* PBXTargetDependency */,
 			);
 			name = ProcedureKitNetwork;
 			productName = ProcedureKitNetwork;
@@ -934,9 +854,9 @@
 		};
 		"ProcedureKit::SwiftPMPackageDescription" /* ProcedureKitPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_150 /* Build configuration list for PBXNativeTarget "ProcedureKitPackageDescription" */;
+			buildConfigurationList = OBJ_146 /* Build configuration list for PBXNativeTarget "ProcedureKitPackageDescription" */;
 			buildPhases = (
-				OBJ_153 /* Sources */,
+				OBJ_149 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -946,29 +866,12 @@
 			productName = ProcedureKitPackageDescription;
 			productType = "com.apple.product-type.framework";
 		};
-		"ProcedureKit::TestingProcedureKit" /* TestingProcedureKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_214 /* Build configuration list for PBXNativeTarget "TestingProcedureKit" */;
-			buildPhases = (
-				OBJ_217 /* Sources */,
-				OBJ_230 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				OBJ_232 /* PBXTargetDependency */,
-			);
-			name = TestingProcedureKit;
-			productName = TestingProcedureKit;
-			productReference = "ProcedureKit::TestingProcedureKit::Product" /* TestingProcedureKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		"SonarrAPI::SonarrAPI" /* SonarrAPI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_192 /* Build configuration list for PBXNativeTarget "SonarrAPI" */;
+			buildConfigurationList = OBJ_185 /* Build configuration list for PBXNativeTarget "SonarrAPI" */;
 			buildPhases = (
-				OBJ_195 /* Sources */,
-				OBJ_199 /* Frameworks */,
+				OBJ_188 /* Sources */,
+				OBJ_200 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -979,7 +882,6 @@
 				OBJ_210 /* PBXTargetDependency */,
 				OBJ_211 /* PBXTargetDependency */,
 				OBJ_212 /* PBXTargetDependency */,
-				OBJ_213 /* PBXTargetDependency */,
 			);
 			name = SonarrAPI;
 			productName = SonarrAPI;
@@ -988,22 +890,21 @@
 		};
 		"SonarrAPI::SonarrAPITests" /* SonarrAPITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_162 /* Build configuration list for PBXNativeTarget "SonarrAPITests" */;
+			buildConfigurationList = OBJ_158 /* Build configuration list for PBXNativeTarget "SonarrAPITests" */;
 			buildPhases = (
-				OBJ_165 /* Sources */,
-				OBJ_167 /* Frameworks */,
+				OBJ_161 /* Sources */,
+				OBJ_163 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_176 /* PBXTargetDependency */,
-				OBJ_178 /* PBXTargetDependency */,
-				OBJ_180 /* PBXTargetDependency */,
-				OBJ_182 /* PBXTargetDependency */,
-				OBJ_184 /* PBXTargetDependency */,
-				OBJ_186 /* PBXTargetDependency */,
-				OBJ_188 /* PBXTargetDependency */,
-				OBJ_190 /* PBXTargetDependency */,
+				OBJ_171 /* PBXTargetDependency */,
+				OBJ_173 /* PBXTargetDependency */,
+				OBJ_175 /* PBXTargetDependency */,
+				OBJ_177 /* PBXTargetDependency */,
+				OBJ_179 /* PBXTargetDependency */,
+				OBJ_181 /* PBXTargetDependency */,
+				OBJ_183 /* PBXTargetDependency */,
 			);
 			name = SonarrAPITests;
 			productName = SonarrAPITests;
@@ -1012,9 +913,9 @@
 		};
 		"SonarrAPI::SwiftPMPackageDescription" /* SonarrAPIPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_144 /* Build configuration list for PBXNativeTarget "SonarrAPIPackageDescription" */;
+			buildConfigurationList = OBJ_140 /* Build configuration list for PBXNativeTarget "SonarrAPIPackageDescription" */;
 			buildPhases = (
-				OBJ_147 /* Sources */,
+				OBJ_143 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -1039,8 +940,8 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5;
-			productRefGroup = OBJ_133 /* Products */;
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_130 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1049,7 +950,6 @@
 				"Alamofire::SwiftPMPackageDescription" /* AlamofirePackageDescription */,
 				"SonarrAPI::SonarrAPITests" /* SonarrAPITests */,
 				"SonarrAPI::SonarrAPI" /* SonarrAPI */,
-				"ProcedureKit::TestingProcedureKit" /* TestingProcedureKit */,
 				"ProcedureKit::ProcedureKitMac" /* ProcedureKitMac */,
 				"ProcedureKit::ProcedureKitCloud" /* ProcedureKitCloud */,
 				"ProcedureKit::ProcedureKitNetwork" /* ProcedureKitNetwork */,
@@ -1062,323 +962,289 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_147 /* Sources */ = {
+		OBJ_143 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_148 /* Package.swift in Sources */,
+				OBJ_144 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_153 /* Sources */ = {
+		OBJ_149 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_154 /* Package.swift in Sources */,
+				OBJ_150 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_159 /* Sources */ = {
+		OBJ_155 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_160 /* Package.swift in Sources */,
+				OBJ_156 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_165 /* Sources */ = {
+		OBJ_161 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_166 /* SonarrAPITests.swift in Sources */,
+				OBJ_162 /* SonarrAPITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_195 /* Sources */ = {
+		OBJ_188 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				9DF1115A1FFD92AF001BB9A8 /* Image.swift in Sources */,
-				9DF1115C1FFD92AF001BB9A8 /* Season.swift in Sources */,
+				OBJ_189 /* AlternateTitle.swift in Sources */,
+				OBJ_190 /* Image.swift in Sources */,
+				OBJ_191 /* Ratings.swift in Sources */,
+				OBJ_192 /* Season.swift in Sources */,
+				OBJ_193 /* Serie.swift in Sources */,
+				OBJ_194 /* Statistics.swift in Sources */,
+				OBJ_195 /* SeriesRequest.swift in Sources */,
 				OBJ_196 /* SonarrAPI.swift in Sources */,
 				OBJ_197 /* SonarrAPIEndpoint.swift in Sources */,
-				9DF1115F1FFD92CD001BB9A8 /* SonarrRequestProcedure.swift in Sources */,
-				9DF111571FFD92AF001BB9A8 /* SeriesRequest.swift in Sources */,
-				9DF111581FFD92AF001BB9A8 /* Statistics.swift in Sources */,
-				9DF111591FFD92AF001BB9A8 /* Ratings.swift in Sources */,
-				9DF1115D1FFD92AF001BB9A8 /* AlternateTitle.swift in Sources */,
-				9DF1115B1FFD92AF001BB9A8 /* Serie.swift in Sources */,
 				OBJ_198 /* SonarrRequest.swift in Sources */,
+				OBJ_199 /* SonarrRequestProcedure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_217 /* Sources */ = {
+		OBJ_216 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_218 /* CapabilityTestCase.swift in Sources */,
-				OBJ_219 /* ConcurrencyTestCase.swift in Sources */,
-				OBJ_220 /* GroupTestCase.swift in Sources */,
-				OBJ_221 /* ProcedureKitTestCase.swift in Sources */,
-				OBJ_222 /* QueueTestDelegate.swift in Sources */,
-				OBJ_223 /* RepeatTestCase.swift in Sources */,
-				OBJ_224 /* StressTestCase.swift in Sources */,
-				OBJ_225 /* TestCondition.swift in Sources */,
-				OBJ_226 /* TestProcedure.swift in Sources */,
-				OBJ_227 /* TestableNetwork.swift in Sources */,
-				OBJ_228 /* TestableNetworkReachability.swift in Sources */,
-				OBJ_229 /* XCTAsserts.swift in Sources */,
+				OBJ_217 /* Process.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_236 /* Sources */ = {
+		OBJ_224 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_237 /* Process.swift in Sources */,
+				OBJ_225 /* CKAcceptSharesOperation.swift in Sources */,
+				OBJ_226 /* CKDatabaseOperation.swift in Sources */,
+				OBJ_227 /* CKDiscoverAllContactsOperation.swift in Sources */,
+				OBJ_228 /* CKDiscoverAllUserIdentitiesOperation.swift in Sources */,
+				OBJ_229 /* CKDiscoverUserIdentitiesOperation.swift in Sources */,
+				OBJ_230 /* CKDiscoverUserInfosOperation.swift in Sources */,
+				OBJ_231 /* CKFetchDatabaseChangesOperation.swift in Sources */,
+				OBJ_232 /* CKFetchNotificationChangesOperation.swift in Sources */,
+				OBJ_233 /* CKFetchRecordChangesOperation.swift in Sources */,
+				OBJ_234 /* CKFetchRecordZoneChangesOperation.swift in Sources */,
+				OBJ_235 /* CKFetchRecordZonesOperation.swift in Sources */,
+				OBJ_236 /* CKFetchRecordsOperation.swift in Sources */,
+				OBJ_237 /* CKFetchShareMetadataOperation.swift in Sources */,
+				OBJ_238 /* CKFetchShareParticipantsOperation.swift in Sources */,
+				OBJ_239 /* CKFetchSubscriptionsOperation.swift in Sources */,
+				OBJ_240 /* CKMarkNotificationsReadOperation.swift in Sources */,
+				OBJ_241 /* CKModifyBadgeOperation.swift in Sources */,
+				OBJ_242 /* CKModifyRecordZonesOperation.swift in Sources */,
+				OBJ_243 /* CKModifyRecordsOperation.swift in Sources */,
+				OBJ_244 /* CKModifySubscriptionsOperation.swift in Sources */,
+				OBJ_245 /* CKOperation.swift in Sources */,
+				OBJ_246 /* CKQueryOperation.swift in Sources */,
+				OBJ_247 /* CloudKit.swift in Sources */,
+				OBJ_248 /* CloudKitCapability.swift in Sources */,
+				OBJ_249 /* CloudKitError.swift in Sources */,
+				OBJ_250 /* CloudKitSupport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_244 /* Sources */ = {
+		OBJ_257 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_245 /* CKAcceptSharesOperation.swift in Sources */,
-				OBJ_246 /* CKDatabaseOperation.swift in Sources */,
-				OBJ_247 /* CKDiscoverAllContactsOperation.swift in Sources */,
-				OBJ_248 /* CKDiscoverAllUserIdentitiesOperation.swift in Sources */,
-				OBJ_249 /* CKDiscoverUserIdentitiesOperation.swift in Sources */,
-				OBJ_250 /* CKDiscoverUserInfosOperation.swift in Sources */,
-				OBJ_251 /* CKFetchDatabaseChangesOperation.swift in Sources */,
-				OBJ_252 /* CKFetchNotificationChangesOperation.swift in Sources */,
-				OBJ_253 /* CKFetchRecordChangesOperation.swift in Sources */,
-				OBJ_254 /* CKFetchRecordZoneChangesOperation.swift in Sources */,
-				OBJ_255 /* CKFetchRecordZonesOperation.swift in Sources */,
-				OBJ_256 /* CKFetchRecordsOperation.swift in Sources */,
-				OBJ_257 /* CKFetchShareMetadataOperation.swift in Sources */,
-				OBJ_258 /* CKFetchShareParticipantsOperation.swift in Sources */,
-				OBJ_259 /* CKFetchSubscriptionsOperation.swift in Sources */,
-				OBJ_260 /* CKMarkNotificationsReadOperation.swift in Sources */,
-				OBJ_261 /* CKModifyBadgeOperation.swift in Sources */,
-				OBJ_262 /* CKModifyRecordZonesOperation.swift in Sources */,
-				OBJ_263 /* CKModifyRecordsOperation.swift in Sources */,
-				OBJ_264 /* CKModifySubscriptionsOperation.swift in Sources */,
-				OBJ_265 /* CKOperation.swift in Sources */,
-				OBJ_266 /* CKQueryOperation.swift in Sources */,
-				OBJ_267 /* CloudKit.swift in Sources */,
-				OBJ_268 /* CloudKitCapability.swift in Sources */,
-				OBJ_269 /* CloudKitError.swift in Sources */,
-				OBJ_270 /* CloudKitSupport.swift in Sources */,
+				OBJ_258 /* Network.swift in Sources */,
+				OBJ_259 /* NetworkData.swift in Sources */,
+				OBJ_260 /* NetworkDownload.swift in Sources */,
+				OBJ_261 /* NetworkReachability.swift in Sources */,
+				OBJ_262 /* NetworkSupport.swift in Sources */,
+				OBJ_263 /* NetworkUpload.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_277 /* Sources */ = {
+		OBJ_270 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_278 /* Network.swift in Sources */,
-				OBJ_279 /* NetworkData.swift in Sources */,
-				OBJ_280 /* NetworkDownload.swift in Sources */,
-				OBJ_281 /* NetworkReachability.swift in Sources */,
-				OBJ_282 /* NetworkSupport.swift in Sources */,
-				OBJ_283 /* NetworkUpload.swift in Sources */,
+				OBJ_271 /* LocationCapability.swift in Sources */,
+				OBJ_272 /* LocationSupport.swift in Sources */,
+				OBJ_273 /* ReverseGeocode.swift in Sources */,
+				OBJ_274 /* ReverseGeocodeUserLocation.swift in Sources */,
+				OBJ_275 /* UserLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_290 /* Sources */ = {
+		OBJ_282 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_291 /* LocationCapability.swift in Sources */,
-				OBJ_292 /* LocationSupport.swift in Sources */,
-				OBJ_293 /* ReverseGeocode.swift in Sources */,
-				OBJ_294 /* ReverseGeocodeUserLocation.swift in Sources */,
-				OBJ_295 /* UserLocation.swift in Sources */,
+				OBJ_283 /* Any.swift in Sources */,
+				OBJ_284 /* AnyObserver.swift in Sources */,
+				OBJ_285 /* Block.swift in Sources */,
+				OBJ_286 /* BlockCondition.swift in Sources */,
+				OBJ_287 /* BlockObservers.swift in Sources */,
+				OBJ_288 /* Capability.swift in Sources */,
+				OBJ_289 /* Collection+ProcedureKit.swift in Sources */,
+				OBJ_290 /* Composed.swift in Sources */,
+				OBJ_291 /* Condition.swift in Sources */,
+				OBJ_292 /* Delay.swift in Sources */,
+				OBJ_293 /* DispatchQueue+ProcedureKit.swift in Sources */,
+				OBJ_294 /* Errors.swift in Sources */,
+				OBJ_295 /* Filter.swift in Sources */,
+				OBJ_296 /* Group.swift in Sources */,
+				OBJ_297 /* Identity.swift in Sources */,
+				OBJ_298 /* Logging.swift in Sources */,
+				OBJ_299 /* Map.swift in Sources */,
+				OBJ_300 /* MutualExclusion.swift in Sources */,
+				OBJ_301 /* NegatedCondition.swift in Sources */,
+				OBJ_302 /* NetworkObserver.swift in Sources */,
+				OBJ_303 /* NoFailedDependenciesCondition.swift in Sources */,
+				OBJ_304 /* Operation+ProcedureKit.swift in Sources */,
+				OBJ_305 /* PendingEvent.swift in Sources */,
+				OBJ_306 /* Procedure.swift in Sources */,
+				OBJ_307 /* ProcedureEventQueue.swift in Sources */,
+				OBJ_308 /* ProcedureFuture.swift in Sources */,
+				OBJ_309 /* ProcedureObserver.swift in Sources */,
+				OBJ_310 /* ProcedureProcotol.swift in Sources */,
+				OBJ_311 /* ProcedureQueue.swift in Sources */,
+				OBJ_312 /* ProcedureResult.swift in Sources */,
+				OBJ_313 /* Profiler.swift in Sources */,
+				OBJ_314 /* Reachability.swift in Sources */,
+				OBJ_315 /* Reduce.swift in Sources */,
+				OBJ_316 /* Repeat.swift in Sources */,
+				OBJ_317 /* Retry.swift in Sources */,
+				OBJ_318 /* SilentCondition.swift in Sources */,
+				OBJ_319 /* Support.swift in Sources */,
+				OBJ_320 /* TimeoutObserver.swift in Sources */,
+				OBJ_321 /* Transform.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_302 /* Sources */ = {
+		OBJ_326 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_303 /* Any.swift in Sources */,
-				OBJ_304 /* AnyObserver.swift in Sources */,
-				OBJ_305 /* Block.swift in Sources */,
-				OBJ_306 /* BlockCondition.swift in Sources */,
-				OBJ_307 /* BlockObservers.swift in Sources */,
-				OBJ_308 /* Capability.swift in Sources */,
-				OBJ_309 /* Collection+ProcedureKit.swift in Sources */,
-				OBJ_310 /* Composed.swift in Sources */,
-				OBJ_311 /* Condition.swift in Sources */,
-				OBJ_312 /* Delay.swift in Sources */,
-				OBJ_313 /* DispatchQueue+ProcedureKit.swift in Sources */,
-				OBJ_314 /* Errors.swift in Sources */,
-				OBJ_315 /* Filter.swift in Sources */,
-				OBJ_316 /* Group.swift in Sources */,
-				OBJ_317 /* Identity.swift in Sources */,
-				OBJ_318 /* Logging.swift in Sources */,
-				OBJ_319 /* Map.swift in Sources */,
-				OBJ_320 /* MutualExclusion.swift in Sources */,
-				OBJ_321 /* NegatedCondition.swift in Sources */,
-				OBJ_322 /* NetworkObserver.swift in Sources */,
-				OBJ_323 /* NoFailedDependenciesCondition.swift in Sources */,
-				OBJ_324 /* Operation+ProcedureKit.swift in Sources */,
-				OBJ_325 /* PendingEvent.swift in Sources */,
-				OBJ_326 /* Procedure.swift in Sources */,
-				OBJ_327 /* ProcedureEventQueue.swift in Sources */,
-				OBJ_328 /* ProcedureFuture.swift in Sources */,
-				OBJ_329 /* ProcedureObserver.swift in Sources */,
-				OBJ_330 /* ProcedureProcotol.swift in Sources */,
-				OBJ_331 /* ProcedureQueue.swift in Sources */,
-				OBJ_332 /* ProcedureResult.swift in Sources */,
-				OBJ_333 /* Profiler.swift in Sources */,
-				OBJ_334 /* Reachability.swift in Sources */,
-				OBJ_335 /* Reduce.swift in Sources */,
-				OBJ_336 /* Repeat.swift in Sources */,
-				OBJ_337 /* Retry.swift in Sources */,
-				OBJ_338 /* SilentCondition.swift in Sources */,
-				OBJ_339 /* Support.swift in Sources */,
-				OBJ_340 /* TimeoutObserver.swift in Sources */,
-				OBJ_341 /* Transform.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_346 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_347 /* AFError.swift in Sources */,
-				OBJ_348 /* Alamofire.swift in Sources */,
-				OBJ_349 /* DispatchQueue+Alamofire.swift in Sources */,
-				OBJ_350 /* MultipartFormData.swift in Sources */,
-				OBJ_351 /* NetworkReachabilityManager.swift in Sources */,
-				OBJ_352 /* Notifications.swift in Sources */,
-				OBJ_353 /* ParameterEncoding.swift in Sources */,
-				OBJ_354 /* Request.swift in Sources */,
-				OBJ_355 /* Response.swift in Sources */,
-				OBJ_356 /* ResponseSerialization.swift in Sources */,
-				OBJ_357 /* Result.swift in Sources */,
-				OBJ_358 /* ServerTrustPolicy.swift in Sources */,
-				OBJ_359 /* SessionDelegate.swift in Sources */,
-				OBJ_360 /* SessionManager.swift in Sources */,
-				OBJ_361 /* TaskDelegate.swift in Sources */,
-				OBJ_362 /* Timeline.swift in Sources */,
-				OBJ_363 /* Validation.swift in Sources */,
+				OBJ_327 /* AFError.swift in Sources */,
+				OBJ_328 /* Alamofire.swift in Sources */,
+				OBJ_329 /* DispatchQueue+Alamofire.swift in Sources */,
+				OBJ_330 /* MultipartFormData.swift in Sources */,
+				OBJ_331 /* NetworkReachabilityManager.swift in Sources */,
+				OBJ_332 /* Notifications.swift in Sources */,
+				OBJ_333 /* ParameterEncoding.swift in Sources */,
+				OBJ_334 /* Request.swift in Sources */,
+				OBJ_335 /* Response.swift in Sources */,
+				OBJ_336 /* ResponseSerialization.swift in Sources */,
+				OBJ_337 /* Result.swift in Sources */,
+				OBJ_338 /* ServerTrustPolicy.swift in Sources */,
+				OBJ_339 /* SessionDelegate.swift in Sources */,
+				OBJ_340 /* SessionManager.swift in Sources */,
+				OBJ_341 /* TaskDelegate.swift in Sources */,
+				OBJ_342 /* Timeline.swift in Sources */,
+				OBJ_343 /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_176 /* PBXTargetDependency */ = {
+		OBJ_171 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "SonarrAPI::SonarrAPI" /* SonarrAPI */;
-			targetProxy = 9DF111441FFD9291001BB9A8 /* PBXContainerItemProxy */;
+			targetProxy = 9DF787E9202089BA00810EA0 /* PBXContainerItemProxy */;
 		};
-		OBJ_178 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "ProcedureKit::TestingProcedureKit" /* TestingProcedureKit */;
-			targetProxy = 9DF111451FFD9291001BB9A8 /* PBXContainerItemProxy */;
-		};
-		OBJ_180 /* PBXTargetDependency */ = {
+		OBJ_173 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "ProcedureKit::ProcedureKitMac" /* ProcedureKitMac */;
-			targetProxy = 9DF111461FFD9291001BB9A8 /* PBXContainerItemProxy */;
+			targetProxy = 9DF787EA202089BA00810EA0 /* PBXContainerItemProxy */;
 		};
-		OBJ_182 /* PBXTargetDependency */ = {
+		OBJ_175 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "ProcedureKit::ProcedureKitCloud" /* ProcedureKitCloud */;
-			targetProxy = 9DF111471FFD9291001BB9A8 /* PBXContainerItemProxy */;
+			targetProxy = 9DF787EB202089BA00810EA0 /* PBXContainerItemProxy */;
 		};
-		OBJ_184 /* PBXTargetDependency */ = {
+		OBJ_177 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "ProcedureKit::ProcedureKitNetwork" /* ProcedureKitNetwork */;
-			targetProxy = 9DF111481FFD9291001BB9A8 /* PBXContainerItemProxy */;
+			targetProxy = 9DF787EC202089BA00810EA0 /* PBXContainerItemProxy */;
 		};
-		OBJ_186 /* PBXTargetDependency */ = {
+		OBJ_179 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "ProcedureKit::ProcedureKitLocation" /* ProcedureKitLocation */;
-			targetProxy = 9DF111491FFD9291001BB9A8 /* PBXContainerItemProxy */;
+			targetProxy = 9DF787ED202089BA00810EA0 /* PBXContainerItemProxy */;
 		};
-		OBJ_188 /* PBXTargetDependency */ = {
+		OBJ_181 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "ProcedureKit::ProcedureKit" /* ProcedureKit */;
-			targetProxy = 9DF1114A1FFD9291001BB9A8 /* PBXContainerItemProxy */;
+			targetProxy = 9DF787EE202089BA00810EA0 /* PBXContainerItemProxy */;
 		};
-		OBJ_190 /* PBXTargetDependency */ = {
+		OBJ_183 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Alamofire::Alamofire" /* Alamofire */;
-			targetProxy = 9DF1114B1FFD9291001BB9A8 /* PBXContainerItemProxy */;
+			targetProxy = 9DF787EF202089BA00810EA0 /* PBXContainerItemProxy */;
 		};
 		OBJ_207 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "ProcedureKit::TestingProcedureKit" /* TestingProcedureKit */;
-			targetProxy = 9DF111381FFD9291001BB9A8 /* PBXContainerItemProxy */;
+			target = "ProcedureKit::ProcedureKitMac" /* ProcedureKitMac */;
+			targetProxy = 9DF787DF202089BA00810EA0 /* PBXContainerItemProxy */;
 		};
 		OBJ_208 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "ProcedureKit::ProcedureKitMac" /* ProcedureKitMac */;
-			targetProxy = 9DF1113A1FFD9291001BB9A8 /* PBXContainerItemProxy */;
+			target = "ProcedureKit::ProcedureKitCloud" /* ProcedureKitCloud */;
+			targetProxy = 9DF787E1202089BA00810EA0 /* PBXContainerItemProxy */;
 		};
 		OBJ_209 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "ProcedureKit::ProcedureKitCloud" /* ProcedureKitCloud */;
-			targetProxy = 9DF1113C1FFD9291001BB9A8 /* PBXContainerItemProxy */;
+			target = "ProcedureKit::ProcedureKitNetwork" /* ProcedureKitNetwork */;
+			targetProxy = 9DF787E3202089BA00810EA0 /* PBXContainerItemProxy */;
 		};
 		OBJ_210 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "ProcedureKit::ProcedureKitNetwork" /* ProcedureKitNetwork */;
-			targetProxy = 9DF1113E1FFD9291001BB9A8 /* PBXContainerItemProxy */;
+			target = "ProcedureKit::ProcedureKitLocation" /* ProcedureKitLocation */;
+			targetProxy = 9DF787E5202089BA00810EA0 /* PBXContainerItemProxy */;
 		};
 		OBJ_211 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "ProcedureKit::ProcedureKitLocation" /* ProcedureKitLocation */;
-			targetProxy = 9DF111401FFD9291001BB9A8 /* PBXContainerItemProxy */;
+			target = "ProcedureKit::ProcedureKit" /* ProcedureKit */;
+			targetProxy = 9DF787E7202089BA00810EA0 /* PBXContainerItemProxy */;
 		};
 		OBJ_212 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "ProcedureKit::ProcedureKit" /* ProcedureKit */;
-			targetProxy = 9DF111421FFD9291001BB9A8 /* PBXContainerItemProxy */;
-		};
-		OBJ_213 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
 			target = "Alamofire::Alamofire" /* Alamofire */;
-			targetProxy = 9DF111431FFD9291001BB9A8 /* PBXContainerItemProxy */;
+			targetProxy = 9DF787E8202089BA00810EA0 /* PBXContainerItemProxy */;
 		};
-		OBJ_232 /* PBXTargetDependency */ = {
+		OBJ_220 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "ProcedureKit::ProcedureKit" /* ProcedureKit */;
-			targetProxy = 9DF111391FFD9291001BB9A8 /* PBXContainerItemProxy */;
+			targetProxy = 9DF787E0202089BA00810EA0 /* PBXContainerItemProxy */;
 		};
-		OBJ_240 /* PBXTargetDependency */ = {
+		OBJ_253 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "ProcedureKit::ProcedureKit" /* ProcedureKit */;
-			targetProxy = 9DF1113B1FFD9291001BB9A8 /* PBXContainerItemProxy */;
+			targetProxy = 9DF787E2202089BA00810EA0 /* PBXContainerItemProxy */;
 		};
-		OBJ_273 /* PBXTargetDependency */ = {
+		OBJ_266 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "ProcedureKit::ProcedureKit" /* ProcedureKit */;
-			targetProxy = 9DF1113D1FFD9291001BB9A8 /* PBXContainerItemProxy */;
+			targetProxy = 9DF787E4202089BA00810EA0 /* PBXContainerItemProxy */;
 		};
-		OBJ_286 /* PBXTargetDependency */ = {
+		OBJ_278 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "ProcedureKit::ProcedureKit" /* ProcedureKit */;
-			targetProxy = 9DF1113F1FFD9291001BB9A8 /* PBXContainerItemProxy */;
+			targetProxy = 9DF787E6202089BA00810EA0 /* PBXContainerItemProxy */;
 		};
-		OBJ_298 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "ProcedureKit::ProcedureKit" /* ProcedureKit */;
-			targetProxy = 9DF111411FFD9291001BB9A8 /* PBXContainerItemProxy */;
-		};
-		OBJ_369 /* PBXTargetDependency */ = {
+		OBJ_349 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "SonarrAPI::SonarrAPITests" /* SonarrAPITests */;
-			targetProxy = 9DF1114C1FFD9293001BB9A8 /* PBXContainerItemProxy */;
+			targetProxy = 9DF787F0202089BB00810EA0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_145 /* Debug */ = {
+		OBJ_141 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1387,7 +1253,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_146 /* Release */ = {
+		OBJ_142 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1396,7 +1262,7 @@
 			};
 			name = Release;
 		};
-		OBJ_151 /* Debug */ = {
+		OBJ_147 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1405,7 +1271,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_152 /* Release */ = {
+		OBJ_148 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1414,7 +1280,7 @@
 			};
 			name = Release;
 		};
-		OBJ_157 /* Debug */ = {
+		OBJ_153 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1423,7 +1289,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_158 /* Release */ = {
+		OBJ_154 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -1432,7 +1298,7 @@
 			};
 			name = Release;
 		};
-		OBJ_163 /* Debug */ = {
+		OBJ_159 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -1450,7 +1316,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_164 /* Release */ = {
+		OBJ_160 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -1468,7 +1334,7 @@
 			};
 			name = Release;
 		};
-		OBJ_193 /* Debug */ = {
+		OBJ_186 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1490,7 +1356,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_194 /* Release */ = {
+		OBJ_187 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1512,51 +1378,7 @@
 			};
 			name = Release;
 		};
-		OBJ_215 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = SonarrAPI.xcodeproj/TestingProcedureKit_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = TestingProcedureKit;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGET_NAME = TestingProcedureKit;
-			};
-			name = Debug;
-		};
-		OBJ_216 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = SonarrAPI.xcodeproj/TestingProcedureKit_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = TestingProcedureKit;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGET_NAME = TestingProcedureKit;
-			};
-			name = Release;
-		};
-		OBJ_234 /* Debug */ = {
+		OBJ_214 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1578,7 +1400,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_235 /* Release */ = {
+		OBJ_215 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1600,7 +1422,7 @@
 			};
 			name = Release;
 		};
-		OBJ_242 /* Debug */ = {
+		OBJ_222 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1622,7 +1444,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_243 /* Release */ = {
+		OBJ_223 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1644,7 +1466,7 @@
 			};
 			name = Release;
 		};
-		OBJ_275 /* Debug */ = {
+		OBJ_255 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1666,7 +1488,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_276 /* Release */ = {
+		OBJ_256 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1688,7 +1510,7 @@
 			};
 			name = Release;
 		};
-		OBJ_288 /* Debug */ = {
+		OBJ_268 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1710,7 +1532,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_289 /* Release */ = {
+		OBJ_269 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1729,6 +1551,50 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 				TARGET_NAME = ProcedureKitLocation;
+			};
+			name = Release;
+		};
+		OBJ_280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SonarrAPI.xcodeproj/ProcedureKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ProcedureKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = ProcedureKit;
+			};
+			name = Debug;
+		};
+		OBJ_281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SonarrAPI.xcodeproj/ProcedureKit_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ProcedureKit;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = ProcedureKit;
 			};
 			name = Release;
 		};
@@ -1754,51 +1620,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_300 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = SonarrAPI.xcodeproj/ProcedureKit_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = ProcedureKit;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGET_NAME = ProcedureKit;
-			};
-			name = Debug;
-		};
-		OBJ_301 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = SonarrAPI.xcodeproj/ProcedureKit_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = ProcedureKit;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGET_NAME = ProcedureKit;
-			};
-			name = Release;
-		};
-		OBJ_344 /* Debug */ = {
+		OBJ_324 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1820,7 +1642,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_345 /* Release */ = {
+		OBJ_325 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -1842,13 +1664,13 @@
 			};
 			name = Release;
 		};
-		OBJ_367 /* Debug */ = {
+		OBJ_347 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
 			name = Debug;
 		};
-		OBJ_368 /* Release */ = {
+		OBJ_348 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
@@ -1877,47 +1699,47 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_144 /* Build configuration list for PBXNativeTarget "SonarrAPIPackageDescription" */ = {
+		OBJ_140 /* Build configuration list for PBXNativeTarget "SonarrAPIPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_145 /* Debug */,
-				OBJ_146 /* Release */,
+				OBJ_141 /* Debug */,
+				OBJ_142 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_150 /* Build configuration list for PBXNativeTarget "ProcedureKitPackageDescription" */ = {
+		OBJ_146 /* Build configuration list for PBXNativeTarget "ProcedureKitPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_151 /* Debug */,
-				OBJ_152 /* Release */,
+				OBJ_147 /* Debug */,
+				OBJ_148 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_156 /* Build configuration list for PBXNativeTarget "AlamofirePackageDescription" */ = {
+		OBJ_152 /* Build configuration list for PBXNativeTarget "AlamofirePackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_157 /* Debug */,
-				OBJ_158 /* Release */,
+				OBJ_153 /* Debug */,
+				OBJ_154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_162 /* Build configuration list for PBXNativeTarget "SonarrAPITests" */ = {
+		OBJ_158 /* Build configuration list for PBXNativeTarget "SonarrAPITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_163 /* Debug */,
-				OBJ_164 /* Release */,
+				OBJ_159 /* Debug */,
+				OBJ_160 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_192 /* Build configuration list for PBXNativeTarget "SonarrAPI" */ = {
+		OBJ_185 /* Build configuration list for PBXNativeTarget "SonarrAPI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_193 /* Debug */,
-				OBJ_194 /* Release */,
+				OBJ_186 /* Debug */,
+				OBJ_187 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -1931,74 +1753,65 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_214 /* Build configuration list for PBXNativeTarget "TestingProcedureKit" */ = {
+		OBJ_213 /* Build configuration list for PBXNativeTarget "ProcedureKitMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_215 /* Debug */,
-				OBJ_216 /* Release */,
+				OBJ_214 /* Debug */,
+				OBJ_215 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_233 /* Build configuration list for PBXNativeTarget "ProcedureKitMac" */ = {
+		OBJ_221 /* Build configuration list for PBXNativeTarget "ProcedureKitCloud" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_234 /* Debug */,
-				OBJ_235 /* Release */,
+				OBJ_222 /* Debug */,
+				OBJ_223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_241 /* Build configuration list for PBXNativeTarget "ProcedureKitCloud" */ = {
+		OBJ_254 /* Build configuration list for PBXNativeTarget "ProcedureKitNetwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_242 /* Debug */,
-				OBJ_243 /* Release */,
+				OBJ_255 /* Debug */,
+				OBJ_256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_274 /* Build configuration list for PBXNativeTarget "ProcedureKitNetwork" */ = {
+		OBJ_267 /* Build configuration list for PBXNativeTarget "ProcedureKitLocation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_275 /* Debug */,
-				OBJ_276 /* Release */,
+				OBJ_268 /* Debug */,
+				OBJ_269 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_287 /* Build configuration list for PBXNativeTarget "ProcedureKitLocation" */ = {
+		OBJ_279 /* Build configuration list for PBXNativeTarget "ProcedureKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_288 /* Debug */,
-				OBJ_289 /* Release */,
+				OBJ_280 /* Debug */,
+				OBJ_281 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_299 /* Build configuration list for PBXNativeTarget "ProcedureKit" */ = {
+		OBJ_323 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_300 /* Debug */,
-				OBJ_301 /* Release */,
+				OBJ_324 /* Debug */,
+				OBJ_325 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_343 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+		OBJ_346 /* Build configuration list for PBXAggregateTarget "SonarrAPIPackageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_344 /* Debug */,
-				OBJ_345 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		OBJ_366 /* Build configuration list for PBXAggregateTarget "SonarrAPIPackageTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_367 /* Debug */,
-				OBJ_368 /* Release */,
+				OBJ_347 /* Debug */,
+				OBJ_348 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
