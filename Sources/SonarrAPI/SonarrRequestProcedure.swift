@@ -27,6 +27,15 @@ class SonarrRequestProcedure<T: Codable>: Procedure, OutputProcedure {
         return .default
     }()
     
+    private var requestEndpointPath: String {
+        if let request = request as? (EndpointParametersConvertible & SonarrRequest<T>) {
+            return request.endpoint.pathWithParameters(request.pathParameters)
+        }
+        else {
+            return request.endpoint.path
+        }
+    }
+    
     init(host: String, port: String, apiKey: String, request: SonarrRequest<T>) {
         self.host = host
         self.port = port
@@ -39,7 +48,7 @@ class SonarrRequestProcedure<T: Codable>: Procedure, OutputProcedure {
     
     override func execute() {
         let parameters = ["apiKey": self.apiKey]
-        let requestURL = "http://\(host):\(port)/api/\(request.endpoint.path)"
+        let requestURL = "http://\(host):\(port)/api/\(requestEndpointPath)"
         
         Alamofire.request(requestURL, method: request.endpoint.method, parameters: parameters, headers: ["Accept-Encoding": "application/json"]).validate().responseData(queue: DispatchQueue.default) { (response) in
             switch(response.result) {

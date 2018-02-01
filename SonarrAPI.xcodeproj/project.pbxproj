@@ -21,6 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		9D42DDF52023785D002C22AA /* SeriesDetailRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D42DDF42023785D002C22AA /* SeriesDetailRequest.swift */; };
+		9D42DDF72023793F002C22AA /* EndpointParametersConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D42DDF62023793F002C22AA /* EndpointParametersConvertible.swift */; };
 		OBJ_144 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_150 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_110 /* Package.swift */; };
 		OBJ_156 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_112 /* Package.swift */; };
@@ -36,7 +38,7 @@
 		OBJ_190 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Image.swift */; };
 		OBJ_191 /* Ratings.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Ratings.swift */; };
 		OBJ_192 /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Season.swift */; };
-		OBJ_193 /* Serie.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Serie.swift */; };
+		OBJ_193 /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Series.swift */; };
 		OBJ_194 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Statistics.swift */; };
 		OBJ_195 /* SeriesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* SeriesRequest.swift */; };
 		OBJ_196 /* SonarrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* SonarrAPI.swift */; };
@@ -279,6 +281,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D42DDF42023785D002C22AA /* SeriesDetailRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesDetailRequest.swift; sourceTree = "<group>"; };
+		9D42DDF62023793F002C22AA /* EndpointParametersConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointParametersConvertible.swift; sourceTree = "<group>"; };
 		"Alamofire::Alamofire::Product" /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_100 /* CKModifyRecordsOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKModifyRecordsOperation.swift; sourceTree = "<group>"; };
 		OBJ_101 /* CKModifySubscriptionsOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CKModifySubscriptionsOperation.swift; sourceTree = "<group>"; };
@@ -312,7 +316,7 @@
 		OBJ_129 /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
 		OBJ_13 /* Ratings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ratings.swift; sourceTree = "<group>"; };
 		OBJ_14 /* Season.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
-		OBJ_15 /* Serie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serie.swift; sourceTree = "<group>"; };
+		OBJ_15 /* Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
 		OBJ_16 /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
 		OBJ_18 /* SeriesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesRequest.swift; sourceTree = "<group>"; };
 		OBJ_19 /* SonarrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarrAPI.swift; sourceTree = "<group>"; };
@@ -394,7 +398,7 @@
 		"ProcedureKit::ProcedureKitLocation::Product" /* ProcedureKitLocation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ProcedureKitLocation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"ProcedureKit::ProcedureKitMac::Product" /* ProcedureKitMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ProcedureKitMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"ProcedureKit::ProcedureKitNetwork::Product" /* ProcedureKitNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ProcedureKitNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"SonarrAPI::SonarrAPI::Product" /* SonarrAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SonarrAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SonarrAPI::SonarrAPI::Product" /* SonarrAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SonarrAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"SonarrAPI::SonarrAPITests::Product" /* SonarrAPITests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SonarrAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -482,7 +486,7 @@
 				OBJ_12 /* Image.swift */,
 				OBJ_13 /* Ratings.swift */,
 				OBJ_14 /* Season.swift */,
-				OBJ_15 /* Serie.swift */,
+				OBJ_15 /* Series.swift */,
 				OBJ_16 /* Statistics.swift */,
 			);
 			path = Series;
@@ -542,6 +546,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_18 /* SeriesRequest.swift */,
+				9D42DDF42023785D002C22AA /* SeriesDetailRequest.swift */,
 			);
 			path = Requests;
 			sourceTree = "<group>";
@@ -632,7 +637,7 @@
 			path = ".build/checkouts/ProcedureKit.git--8173997865630089026/Sources/ProcedureKit";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -641,7 +646,6 @@
 				OBJ_26 /* Dependencies */,
 				OBJ_130 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_68 /* ProcedureKitLocation */ = {
@@ -688,6 +692,7 @@
 				OBJ_20 /* SonarrAPIEndpoint.swift */,
 				OBJ_21 /* SonarrRequest.swift */,
 				OBJ_22 /* SonarrRequestProcedure.swift */,
+				9D42DDF62023793F002C22AA /* EndpointParametersConvertible.swift */,
 			);
 			name = SonarrAPI;
 			path = Sources/SonarrAPI;
@@ -940,7 +945,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_130 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1001,11 +1006,13 @@
 				OBJ_189 /* AlternateTitle.swift in Sources */,
 				OBJ_190 /* Image.swift in Sources */,
 				OBJ_191 /* Ratings.swift in Sources */,
+				9D42DDF52023785D002C22AA /* SeriesDetailRequest.swift in Sources */,
 				OBJ_192 /* Season.swift in Sources */,
-				OBJ_193 /* Serie.swift in Sources */,
+				OBJ_193 /* Series.swift in Sources */,
 				OBJ_194 /* Statistics.swift in Sources */,
 				OBJ_195 /* SeriesRequest.swift in Sources */,
 				OBJ_196 /* SonarrAPI.swift in Sources */,
+				9D42DDF72023793F002C22AA /* EndpointParametersConvertible.swift in Sources */,
 				OBJ_197 /* SonarrAPIEndpoint.swift in Sources */,
 				OBJ_198 /* SonarrRequest.swift in Sources */,
 				OBJ_199 /* SonarrRequestProcedure.swift in Sources */,
