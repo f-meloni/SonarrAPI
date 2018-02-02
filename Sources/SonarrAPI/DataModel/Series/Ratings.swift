@@ -1,18 +1,10 @@
 //
 //  Ratings.swift
-//  SonarrAPI
 //
-//  Created by Franco Meloni on 03/01/2018.
+//  Generated with Vulcano https://rubygems.org/gems/vulcano/
 //
 
-import Foundation
-
-public struct Ratings: Codable {
-	public let votes: Int?
-	public let value: Double?
-
-	enum CodingKeys: String, CodingKey {
-		case votes = "votes"
-		case value = "value"
-	}
+class Ratings: Codable {
+    var votes: Int
+    var value: Float
 }

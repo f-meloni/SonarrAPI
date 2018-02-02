@@ -1,18 +1,10 @@
 //
 //  AlternateTitle.swift
-//  SonarrAPI
 //
-//  Created by Franco Meloni on 03/01/2018.
+//  Generated with Vulcano https://rubygems.org/gems/vulcano/
 //
 
-import Foundation
-
-public struct AlternateTitle : Codable {
-	public let title : String?
-	public let seasonNumber : Int?
-
-	enum CodingKeys: String, CodingKey {
-		case title = "title"
-		case seasonNumber = "seasonNumber"
-	}
+class AlternateTitle: Codable {
+    var title: String
+    var seasonNumber: Int
 }

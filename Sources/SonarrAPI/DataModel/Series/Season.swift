@@ -1,20 +1,11 @@
 //
 //  Season.swift
-//  SonarrAPI
 //
-//  Created by Franco Meloni on 03/01/2018.
+//  Generated with Vulcano https://rubygems.org/gems/vulcano/
 //
 
-import Foundation
-
-public struct Season: Codable {
-	public let seasonNumber : Int?
-	public let monitored : Bool?
-	public let statistics : Statistics?
-
-	enum CodingKeys: String, CodingKey {
-		case seasonNumber = "seasonNumber"
-		case monitored = "monitored"
-		case statistics
-	}
+class Season: Codable {
+    var seasonNumber: Int
+    var monitored: Boolean
+    var statistics: Statistics
 }
