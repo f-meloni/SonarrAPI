@@ -1,10 +1,10 @@
 //
 //  Statistics.swift
 //
-//  Generated with Vulcano https://rubygems.org/gems/vulcano/
+//  Generated with Vulcano https://rubygems.org/gems/vulcano
 //
 
-public class Statistics: Codable {
+public struct Statistics: Codable {
     public var previousAiring: String
     public var episodeFileCount: Int
     public var episodeCount: Int

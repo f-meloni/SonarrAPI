@@ -1,10 +1,10 @@
 //
-//  Image.swift
+//  Images.swift
 //
-//  Generated with Vulcano https://rubygems.org/gems/vulcano/
+//  Generated with Vulcano https://rubygems.org/gems/vulcano
 //
 
-public class Image: Codable {
+public struct Image: Codable {
     public var coverType: String
     public var url: String
 }

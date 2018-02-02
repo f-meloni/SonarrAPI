@@ -1,10 +1,10 @@
 //
 //  Series.swift
 //
-//  Generated with Vulcano https://rubygems.org/gems/vulcano/
+//  Generated with Vulcano https://rubygems.org/gems/vulcano
 //
 
-public class Series: Codable {
+public struct Series: Codable {
     public var title: String
     public var alternateTitles: [AlternateTitle]
     public var sortTitle: String
