@@ -6,7 +6,7 @@
 //
 import ProcedureKit
 
-class SeriesDetailRequest: SonarrRequest<Series>, EndpointParametersConvertible {
+public class SeriesDetailRequest: SonarrRequest<Series>, EndpointParametersConvertible {
     override var endpoint: SonarrAPIEndpoint {
         get {
             return SonarrAPIEndpoint(path: "series/:id", method: .get)
@@ -19,7 +19,7 @@ class SeriesDetailRequest: SonarrRequest<Series>, EndpointParametersConvertible 
         return ["id": String(describing: id)]
     }
     
-    init(completionBlock: @escaping (ProcedureResult<Series>) -> Void, seriesID: Int) {
+    public init(seriesID: Int, completionBlock: @escaping (ProcedureResult<Series>) -> Void) {
         self.id = seriesID
         super.init(completionBlock: completionBlock)
     }
