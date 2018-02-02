@@ -5,7 +5,7 @@
 //
 
 public class Season: Codable {
-    var seasonNumber: Int
-    var monitored: Bool
-    var statistics: Statistics
+    public var seasonNumber: Int
+    public var monitored: Bool
+    public var statistics: Statistics
 }

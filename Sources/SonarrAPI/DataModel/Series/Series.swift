@@ -5,41 +5,41 @@
 //
 
 public class Series: Codable {
-    var title: String
-    var alternateTitles: [AlternateTitle]
-    var sortTitle: String
-    var seasonCount: Int
-    var totalEpisodeCount: Int
-    var episodeCount: Int
-    var episodeFileCount: Int
-    var sizeOnDisk: Int
-    var status: String
-    var overview: String
-    var previousAiring: String
-    var network: String
-    var airTime: String
-    var images: [Image]
-    var seasons: [Season]
-    var year: Int
-    var path: String
-    var profileId: Int
-    var seasonFolder: Bool
-    var monitored: Bool
-    var useSceneNumbering: Bool
-    var runtime: Int
-    var tvdbId: Int
-    var tvRageId: Int
-    var tvMazeId: Int
-    var firstAired: String
-    var lastInfoSync: String
-    var seriesType: String
-    var cleanTitle: String
-    var imdbId: String
-    var titleSlug: String
-    var certification: String
-    var genres: [String]
-    var added: String
-    var ratings: Ratings
-    var qualityProfileId: Int
-    var id: Int
+    public var title: String
+    public var alternateTitles: [AlternateTitle]
+    public var sortTitle: String
+    public var seasonCount: Int
+    public var totalEpisodeCount: Int
+    public var episodeCount: Int
+    public var episodeFileCount: Int
+    public var sizeOnDisk: Int
+    public var status: String
+    public var overview: String
+    public var previousAiring: String
+    public var network: String
+    public var airTime: String
+    public var images: [Image]
+    public var seasons: [Season]
+    public var year: Int
+    public var path: String
+    public var profileId: Int
+    public var seasonFolder: Bool
+    public var monitored: Bool
+    public var useSceneNumbering: Bool
+    public var runtime: Int
+    public var tvdbId: Int
+    public var tvRageId: Int
+    public var tvMazeId: Int
+    public var firstAired: String
+    public var lastInfoSync: String
+    public var seriesType: String
+    public var cleanTitle: String
+    public var imdbId: String
+    public var titleSlug: String
+    public var certification: String
+    public var genres: [String]
+    public var added: String
+    public var ratings: Ratings
+    public var qualityProfileId: Int
+    public var id: Int
 }

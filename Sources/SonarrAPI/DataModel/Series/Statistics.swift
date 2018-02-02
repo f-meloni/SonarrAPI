@@ -5,10 +5,10 @@
 //
 
 public class Statistics: Codable {
-    var previousAiring: String
-    var episodeFileCount: Int
-    var episodeCount: Int
-    var totalEpisodeCount: Int
-    var sizeOnDisk: Int
-    var percentOfEpisodes: Int
+    public var previousAiring: String
+    public var episodeFileCount: Int
+    public var episodeCount: Int
+    public var totalEpisodeCount: Int
+    public var sizeOnDisk: Int
+    public var percentOfEpisodes: Int
 }

@@ -5,6 +5,6 @@
 //
 
 public class Ratings: Codable {
-    var votes: Int
-    var value: Float
+    public var votes: Int
+    public var value: Float
 }

@@ -5,6 +5,6 @@
 //
 
 public class Image: Codable {
-    var coverType: String
-    var url: String
+    public var coverType: String
+    public var url: String
 }

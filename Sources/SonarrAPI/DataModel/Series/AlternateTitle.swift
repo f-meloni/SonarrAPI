@@ -5,6 +5,6 @@
 //
 
 public class AlternateTitle: Codable {
-    var title: String
-    var seasonNumber: Int
+    public var title: String
+    public var seasonNumber: Int
 }
