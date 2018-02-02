@@ -4,7 +4,7 @@
 //  Generated with Vulcano https://rubygems.org/gems/vulcano/
 //
 
-class AlternateTitle: Codable {
+public class AlternateTitle: Codable {
     var title: String
     var seasonNumber: Int
 }

@@ -4,7 +4,7 @@
 //  Generated with Vulcano https://rubygems.org/gems/vulcano/
 //
 
-class Image: Codable {
+public class Image: Codable {
     var coverType: String
     var url: String
 }

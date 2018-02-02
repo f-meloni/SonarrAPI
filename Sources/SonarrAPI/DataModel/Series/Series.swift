@@ -4,9 +4,9 @@
 //  Generated with Vulcano https://rubygems.org/gems/vulcano/
 //
 
-class Series: Codable {
+public class Series: Codable {
     var title: String
-    var alternateTitles: [AlternateTitles]
+    var alternateTitles: [AlternateTitle]
     var sortTitle: String
     var seasonCount: Int
     var totalEpisodeCount: Int
@@ -18,14 +18,14 @@ class Series: Codable {
     var previousAiring: String
     var network: String
     var airTime: String
-    var images: [Images]
-    var seasons: [Seasons]
+    var images: [Image]
+    var seasons: [Season]
     var year: Int
     var path: String
     var profileId: Int
-    var seasonFolder: Boolean
-    var monitored: Boolean
-    var useSceneNumbering: Boolean
+    var seasonFolder: Bool
+    var monitored: Bool
+    var useSceneNumbering: Bool
     var runtime: Int
     var tvdbId: Int
     var tvRageId: Int

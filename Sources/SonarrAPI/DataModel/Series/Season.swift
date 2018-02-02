@@ -4,8 +4,8 @@
 //  Generated with Vulcano https://rubygems.org/gems/vulcano/
 //
 
-class Season: Codable {
+public class Season: Codable {
     var seasonNumber: Int
-    var monitored: Boolean
+    var monitored: Bool
     var statistics: Statistics
 }

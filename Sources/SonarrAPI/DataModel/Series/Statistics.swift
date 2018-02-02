@@ -4,7 +4,7 @@
 //  Generated with Vulcano https://rubygems.org/gems/vulcano/
 //
 
-class Statistics: Codable {
+public class Statistics: Codable {
     var previousAiring: String
     var episodeFileCount: Int
     var episodeCount: Int
