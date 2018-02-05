@@ -13,8 +13,7 @@ public class SeriesDetailRequest: SonarrRequest<Series>, EndpointParametersConve
         }
     }
     
-    var id: Int
-    
+    let id: Int
     var pathParameters: [String : String] {
         return ["id": String(describing: id)]
     }
