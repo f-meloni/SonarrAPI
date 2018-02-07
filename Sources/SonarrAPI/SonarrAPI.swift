@@ -11,7 +11,7 @@ public struct SonarrAPI {
     private let host: String
     private let port: String
     private let apiKey: String
-    private let queue: ProcedureQueue
+    let queue: ProcedureQueue
     
     public init(host: String, port: String, apiKey: String) {
         self.host = host

@@ -16,9 +16,9 @@ enum SonarrRequestProcedureError: Error {
 class SonarrRequestProcedure<T: Codable>: Procedure, OutputProcedure {
     typealias Output = T
     
-    private let host: String
-    private let port: String
-    private let apiKey: String
+    let host: String
+    let port: String
+    let apiKey: String
     private let request: SonarrRequest<T>
     
     var output: Pending<ProcedureResult<T>>

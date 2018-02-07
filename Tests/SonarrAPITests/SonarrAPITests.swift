@@ -1,16 +1,44 @@
 import XCTest
+import Quick
+import Nimble
 @testable import SonarrAPI
 
-class SonarrAPITests: XCTestCase {
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(SonarrAPI().text, "Hello, World!")
+final class SonarrAPISpec: QuickSpec {
+    override func spec() {
+        var sonarrAPI: SonarrAPI!
+        let testHost = "host"
+        let testPort = "port"
+        let testApiKey = "apiKey"
+        
+        beforeEach {
+            sonarrAPI = SonarrAPI(host: testHost, port: testPort, apiKey: testApiKey)
+        }
+        
+        describe("SonarrAPI") {
+            context("When execute method is called") {
+                beforeEach {
+                    sonarrAPI.queue.isSuspended = true
+                    sonarrAPI.execute(request: TestSonarrRequest(completionBlock: { (_) in }))
+                }
+                
+                it("adds only the correct SonarrRequestProcedure to the queue", closure: {
+                    expect(sonarrAPI.queue.operations.count) == 1
+                    expect(sonarrAPI.queue.operations[0]).to(beAnInstanceOf(SonarrRequestProcedure<Result>.self))
+                })
+                
+                it("adds a SonarrRequestProcedure with correct data", closure: {
+                    let procedure = sonarrAPI.queue.operations.first as! SonarrRequestProcedure<Result>
+                    
+                    expect(procedure.host) == testHost
+                    expect(procedure.port) == testPort
+                    expect(procedure.apiKey) == testApiKey
+                })
+            }
+        }
     }
+}
 
+private struct Result: Codable {}
 
-    static var allTests = [
-        ("testExample", testExample),
-    ]
+private final class TestSonarrRequest: SonarrRequest<Result> {
 }
