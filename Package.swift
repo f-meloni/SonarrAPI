@@ -16,7 +16,6 @@ let package = Package(
         .package(url: "https://github.com/f-meloni/ProcedureKit.git", .branch("development")),
         .package(url: "https://github.com/Quick/Quick.git", .upToNextMajor(from: "1.2.0")),
         .package(url: "https://github.com/Quick/Nimble.git", .upToNextMajor(from: "7.0.2")),
-        .package(url: "https://github.com/httpswift/swifter.git", .upToNextMajor(from: "1.3.3"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -26,6 +25,6 @@ let package = Package(
             dependencies: ["Alamofire", "ProcedureKit"]),
         .testTarget(
             name: "SonarrAPITests",
-            dependencies: ["SonarrAPI", "Quick", "Nimble", "Swifter"]),
+            dependencies: ["SonarrAPI", "Quick", "Nimble"]),
     ]
 )

@@ -23,11 +23,11 @@ final class SonarrAPISpec: QuickSpec {
                 
                 it("adds only the correct SonarrRequestProcedure to the queue", closure: {
                     expect(sonarrAPI.queue.operations.count) == 1
-                    expect(sonarrAPI.queue.operations[0]).to(beAnInstanceOf(SonarrRequestProcedure<Result>.self))
+                    expect(sonarrAPI.queue.operations[0]).to(beAnInstanceOf(SonarrRequestProcedure<TestResult>.self))
                 })
                 
                 it("adds a SonarrRequestProcedure with correct data", closure: {
-                    let procedure = sonarrAPI.queue.operations.first as! SonarrRequestProcedure<Result>
+                    let procedure = sonarrAPI.queue.operations.first as! SonarrRequestProcedure<TestResult>
                     
                     expect(procedure.host) == testHost
                     expect(procedure.port) == testPort
@@ -38,7 +38,5 @@ final class SonarrAPISpec: QuickSpec {
     }
 }
 
-private struct Result: Codable {}
-
-private final class TestSonarrRequest: SonarrRequest<Result> {
+private final class TestSonarrRequest: SonarrRequest<TestResult> {
 }

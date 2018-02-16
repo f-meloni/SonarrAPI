@@ -50,6 +50,8 @@ class SonarrRequestProcedure<T: Codable>: Procedure, OutputProcedure {
         let parameters = ["apiKey": self.apiKey]
         let requestURL = "http://\(host):\(port)/api/\(requestEndpointPath)"
         
+        print(requestURL)
+        
         Alamofire.request(requestURL, method: request.endpoint.method, parameters: parameters, headers: ["Accept-Encoding": "application/json"]).validate().responseData(queue: DispatchQueue.default) { (response) in
             switch(response.result) {
             case .success(let data):
@@ -60,6 +62,7 @@ class SonarrRequestProcedure<T: Codable>: Procedure, OutputProcedure {
                     self.finish(withError: SonarrRequestProcedureError.responseNotValid)
                 }
             case .failure(let error):
+                print(error)
                 self.finish(withResult: .failure(error))
             }
         }
